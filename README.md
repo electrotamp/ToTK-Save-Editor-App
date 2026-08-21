@@ -21,7 +21,7 @@ The editor works with save data exported by a homebrew save manager; it does not
 - Autobuild Favorites and History viewer, online HyruleWorks browser, and local `.cai` importer.
 - Built-in save validation, game-limit clamping, icon atlas, and location-name data.
 
-### Using ToTK Save Editor
+## Using ToTK Save Editor
 
 ### Controls used throughout the editor
 
