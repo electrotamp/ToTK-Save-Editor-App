@@ -1,7 +1,7 @@
 # ToTK Save Editor
 
 <p align="center">
-  <img src="resources/assets/boot/totk_save_editor_logo_transparent.png" alt="ToTK Save Editor" width="600">
+  <img src="docs/images/banner.png" alt="ToTK Save Editor" width="600">
 </p>
 
 **ToTK Save Editor** is a native Nintendo Switch homebrew application for editing *The Legend of Zelda: Tears of the Kingdom* saves. It provides a controller-first interface for choosing an exported save, adjusting player stats, managing inventory and horses, and importing Autobuild blueprints from either the online HyruleWorks catalog or local `.cai` files.
