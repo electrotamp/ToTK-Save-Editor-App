@@ -1,0 +1,1699 @@
+{
+  "category": "key",
+  "tab": "key",
+  "output_dir": "resources/assets/item_icons/key",
+  "policy": "highest_resolution_online_source_no_downscale",
+  "sources_tried": [
+    "TOTKImages/Items",
+    "marcrobledo/savegame-editors item_icons"
+  ],
+  "total_targets": 167,
+  "fetched": 157,
+  "missing": 10,
+  "alias_used": 0,
+  "files": [
+    {
+      "item_id": "CaveMasterMedal",
+      "path": "key/CaveMasterMedal.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "CaveMasterMedal",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/CaveMasterMedal.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Energy_Material_01",
+      "path": "key/Energy_Material_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Energy_Material_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Energy_Material_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "GameRomHorseReins_01",
+      "path": "key/GameRomHorseReins_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "GameRomHorseReins_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/GameRomHorseReins_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "GameRomHorseReins_02",
+      "path": "key/GameRomHorseReins_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "GameRomHorseReins_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/GameRomHorseReins_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "GameRomHorseReins_03",
+      "path": "key/GameRomHorseReins_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "GameRomHorseReins_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/GameRomHorseReins_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "GameRomHorseReins_04",
+      "path": "key/GameRomHorseReins_04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "GameRomHorseReins_04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/GameRomHorseReins_04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "GameRomHorseReins_05",
+      "path": "key/GameRomHorseReins_05.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "GameRomHorseReins_05",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/GameRomHorseReins_05.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "GameRomHorseSaddle_01",
+      "path": "key/GameRomHorseSaddle_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "GameRomHorseSaddle_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/GameRomHorseSaddle_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "GameRomHorseSaddle_02",
+      "path": "key/GameRomHorseSaddle_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "GameRomHorseSaddle_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/GameRomHorseSaddle_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "GameRomHorseSaddle_03",
+      "path": "key/GameRomHorseSaddle_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "GameRomHorseSaddle_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/GameRomHorseSaddle_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "GameRomHorseSaddle_04",
+      "path": "key/GameRomHorseSaddle_04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "GameRomHorseSaddle_04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/GameRomHorseSaddle_04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "GameRomHorseSaddle_05",
+      "path": "key/GameRomHorseSaddle_05.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "GameRomHorseSaddle_05",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/GameRomHorseSaddle_05.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "GameRomHorseSaddle_07",
+      "path": "key/GameRomHorseSaddle_07.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "GameRomHorseSaddle_07",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/GameRomHorseSaddle_07.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "MinusRupee_00",
+      "path": "key/MinusRupee_00.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "MinusRupee_00",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/MinusRupee_00.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_Album",
+      "path": "key/Obj_Album.png",
+      "width": 0,
+      "height": 0,
+      "source": "missing",
+      "donor_id": "Obj_Album",
+      "url": "",
+      "alias_used": false,
+      "note": "no online source found"
+    },
+    {
+      "item_id": "Obj_AmiiboItem",
+      "path": "key/Obj_AmiiboItem.png",
+      "width": 144,
+      "height": 144,
+      "source": "marcrobledo",
+      "donor_id": "Obj_AmiiboItem",
+      "url": "https://raw.githubusercontent.com/marcrobledo/savegame-editors/master/zelda-totk/assets/item_icons/key/Obj_AmiiboItem.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_Battery_Get",
+      "path": "key/Obj_Battery_Get.png",
+      "width": 128,
+      "height": 128,
+      "source": "marcrobledo",
+      "donor_id": "Obj_Battery_Get",
+      "url": "https://raw.githubusercontent.com/marcrobledo/savegame-editors/master/zelda-totk/assets/item_icons/key/Obj_Battery_Get.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_Camera",
+      "path": "key/Obj_Camera.png",
+      "width": 144,
+      "height": 144,
+      "source": "totkimages_items",
+      "donor_id": "Obj_Camera",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_Camera.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_DRStone_Get",
+      "path": "key/Obj_DRStone_Get.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_DRStone_Get",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_DRStone_Get.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_DefeatHonor_00",
+      "path": "key/Obj_DefeatHonor_00.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_DefeatHonor_00",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_DefeatHonor_00.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_DefeatHonor_01",
+      "path": "key/Obj_DefeatHonor_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_DefeatHonor_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_DefeatHonor_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_DefeatHonor_02",
+      "path": "key/Obj_DefeatHonor_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_DefeatHonor_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_DefeatHonor_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_DefeatHonor_03",
+      "path": "key/Obj_DefeatHonor_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_DefeatHonor_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_DefeatHonor_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_DefeatHonor_04",
+      "path": "key/Obj_DefeatHonor_04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_DefeatHonor_04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_DefeatHonor_04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_DefeatHonor_05",
+      "path": "key/Obj_DefeatHonor_05.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_DefeatHonor_05",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_DefeatHonor_05.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_DungeonClearSeal",
+      "path": "key/Obj_DungeonClearSeal.png",
+      "width": 128,
+      "height": 128,
+      "source": "marcrobledo",
+      "donor_id": "Obj_DungeonClearSeal",
+      "url": "https://raw.githubusercontent.com/marcrobledo/savegame-editors/master/zelda-totk/assets/item_icons/key/Obj_DungeonClearSeal.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_KorokNuts",
+      "path": "key/Obj_KorokNuts.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_KorokNuts",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_KorokNuts.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_Photo_Animal",
+      "path": "key/Obj_Photo_Animal.png",
+      "width": 0,
+      "height": 0,
+      "source": "missing",
+      "donor_id": "Obj_Photo_Animal",
+      "url": "",
+      "alias_used": false,
+      "note": "no online source found"
+    },
+    {
+      "item_id": "Obj_Photo_BossEnemy",
+      "path": "key/Obj_Photo_BossEnemy.png",
+      "width": 0,
+      "height": 0,
+      "source": "missing",
+      "donor_id": "Obj_Photo_BossEnemy",
+      "url": "",
+      "alias_used": false,
+      "note": "no online source found"
+    },
+    {
+      "item_id": "Obj_Photo_Enemy",
+      "path": "key/Obj_Photo_Enemy.png",
+      "width": 0,
+      "height": 0,
+      "source": "missing",
+      "donor_id": "Obj_Photo_Enemy",
+      "url": "",
+      "alias_used": false,
+      "note": "no online source found"
+    },
+    {
+      "item_id": "Obj_Photo_Material",
+      "path": "key/Obj_Photo_Material.png",
+      "width": 0,
+      "height": 0,
+      "source": "missing",
+      "donor_id": "Obj_Photo_Material",
+      "url": "",
+      "alias_used": false,
+      "note": "no online source found"
+    },
+    {
+      "item_id": "Obj_Photo_Other",
+      "path": "key/Obj_Photo_Other.png",
+      "width": 0,
+      "height": 0,
+      "source": "missing",
+      "donor_id": "Obj_Photo_Other",
+      "url": "",
+      "alias_used": false,
+      "note": "no online source found"
+    },
+    {
+      "item_id": "Obj_Photo_Weapon",
+      "path": "key/Obj_Photo_Weapon.png",
+      "width": 0,
+      "height": 0,
+      "source": "missing",
+      "donor_id": "Obj_Photo_Weapon",
+      "url": "",
+      "alias_used": false,
+      "note": "no online source found"
+    },
+    {
+      "item_id": "Obj_PictureBook",
+      "path": "key/Obj_PictureBook.png",
+      "width": 0,
+      "height": 0,
+      "source": "missing",
+      "donor_id": "Obj_PictureBook",
+      "url": "",
+      "alias_used": false,
+      "note": "no online source found"
+    },
+    {
+      "item_id": "Obj_ProofKorok",
+      "path": "key/Obj_ProofKorok.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_ProofKorok",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_ProofKorok.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SageSoulPlus_Gerudo",
+      "path": "key/Obj_SageSoulPlus_Gerudo.png",
+      "width": 144,
+      "height": 144,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SageSoulPlus_Gerudo",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SageSoulPlus_Gerudo.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SageSoulPlus_Goron",
+      "path": "key/Obj_SageSoulPlus_Goron.png",
+      "width": 144,
+      "height": 144,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SageSoulPlus_Goron",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SageSoulPlus_Goron.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SageSoulPlus_Rito",
+      "path": "key/Obj_SageSoulPlus_Rito.png",
+      "width": 144,
+      "height": 144,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SageSoulPlus_Rito",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SageSoulPlus_Rito.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SageSoulPlus_Zonau",
+      "path": "key/Obj_SageSoulPlus_Zonau.png",
+      "width": 144,
+      "height": 144,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SageSoulPlus_Zonau",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SageSoulPlus_Zonau.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SageSoulPlus_Zora",
+      "path": "key/Obj_SageSoulPlus_Zora.png",
+      "width": 144,
+      "height": 144,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SageSoulPlus_Zora",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SageSoulPlus_Zora.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SageSoul_Gerudo",
+      "path": "key/Obj_SageSoul_Gerudo.png",
+      "width": 144,
+      "height": 144,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SageSoul_Gerudo",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SageSoul_Gerudo.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SageSoul_Goron",
+      "path": "key/Obj_SageSoul_Goron.png",
+      "width": 144,
+      "height": 144,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SageSoul_Goron",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SageSoul_Goron.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SageSoul_Rito",
+      "path": "key/Obj_SageSoul_Rito.png",
+      "width": 144,
+      "height": 144,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SageSoul_Rito",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SageSoul_Rito.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SageSoul_Zonau",
+      "path": "key/Obj_SageSoul_Zonau.png",
+      "width": 144,
+      "height": 144,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SageSoul_Zonau",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SageSoul_Zonau.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SageSoul_Zora",
+      "path": "key/Obj_SageSoul_Zora.png",
+      "width": 144,
+      "height": 144,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SageSoul_Zora",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SageSoul_Zora.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SageWill",
+      "path": "key/Obj_SageWill.png",
+      "width": 128,
+      "height": 128,
+      "source": "marcrobledo",
+      "donor_id": "Obj_SageWill",
+      "url": "https://raw.githubusercontent.com/marcrobledo/savegame-editors/master/zelda-totk/assets/item_icons/key/Obj_SageWill.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SheikSensor",
+      "path": "key/Obj_SheikSensor.png",
+      "width": 0,
+      "height": 0,
+      "source": "missing",
+      "donor_id": "Obj_SheikSensor",
+      "url": "",
+      "alias_used": false,
+      "note": "no online source found"
+    },
+    {
+      "item_id": "Obj_SheikSensorLv2",
+      "path": "key/Obj_SheikSensorLv2.png",
+      "width": 0,
+      "height": 0,
+      "source": "missing",
+      "donor_id": "Obj_SheikSensorLv2",
+      "url": "",
+      "alias_used": false,
+      "note": "no online source found"
+    },
+    {
+      "item_id": "Obj_StableHostlePointCard",
+      "path": "key/Obj_StableHostlePointCard.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_StableHostlePointCard",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_StableHostlePointCard.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_00",
+      "path": "key/Obj_SubstituteCloth_00.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_00",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_00.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_01",
+      "path": "key/Obj_SubstituteCloth_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_02",
+      "path": "key/Obj_SubstituteCloth_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_03",
+      "path": "key/Obj_SubstituteCloth_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_04",
+      "path": "key/Obj_SubstituteCloth_04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_05",
+      "path": "key/Obj_SubstituteCloth_05.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_05",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_05.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_06",
+      "path": "key/Obj_SubstituteCloth_06.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_06",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_06.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_07",
+      "path": "key/Obj_SubstituteCloth_07.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_07",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_07.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_08",
+      "path": "key/Obj_SubstituteCloth_08.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_08",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_08.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_09",
+      "path": "key/Obj_SubstituteCloth_09.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_09",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_09.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_10",
+      "path": "key/Obj_SubstituteCloth_10.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_10",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_10.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_11",
+      "path": "key/Obj_SubstituteCloth_11.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_11",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_11.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_12",
+      "path": "key/Obj_SubstituteCloth_12.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_12",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_12.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_13",
+      "path": "key/Obj_SubstituteCloth_13.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_13",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_13.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_14",
+      "path": "key/Obj_SubstituteCloth_14.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_14",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_14.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_15",
+      "path": "key/Obj_SubstituteCloth_15.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_15",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_15.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_16",
+      "path": "key/Obj_SubstituteCloth_16.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_16",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_16.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_17",
+      "path": "key/Obj_SubstituteCloth_17.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_17",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_17.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_18",
+      "path": "key/Obj_SubstituteCloth_18.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_18",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_18.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_19",
+      "path": "key/Obj_SubstituteCloth_19.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_19",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_19.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_20",
+      "path": "key/Obj_SubstituteCloth_20.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_20",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_20.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_21",
+      "path": "key/Obj_SubstituteCloth_21.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_21",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_21.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_22",
+      "path": "key/Obj_SubstituteCloth_22.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_22",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_22.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_23",
+      "path": "key/Obj_SubstituteCloth_23.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_23",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_23.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_24",
+      "path": "key/Obj_SubstituteCloth_24.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_24",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_24.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_25",
+      "path": "key/Obj_SubstituteCloth_25.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_25",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_25.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_26",
+      "path": "key/Obj_SubstituteCloth_26.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_26",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_26.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_27",
+      "path": "key/Obj_SubstituteCloth_27.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_27",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_27.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_28",
+      "path": "key/Obj_SubstituteCloth_28.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_28",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_28.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_29",
+      "path": "key/Obj_SubstituteCloth_29.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_29",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_29.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_30",
+      "path": "key/Obj_SubstituteCloth_30.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_30",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_30.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_31",
+      "path": "key/Obj_SubstituteCloth_31.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_31",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_31.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_32",
+      "path": "key/Obj_SubstituteCloth_32.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_32",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_32.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_33",
+      "path": "key/Obj_SubstituteCloth_33.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_33",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_33.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_34",
+      "path": "key/Obj_SubstituteCloth_34.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_34",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_34.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_35",
+      "path": "key/Obj_SubstituteCloth_35.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_35",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_35.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_36",
+      "path": "key/Obj_SubstituteCloth_36.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_36",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_36.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_37",
+      "path": "key/Obj_SubstituteCloth_37.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_37",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_37.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_38",
+      "path": "key/Obj_SubstituteCloth_38.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_38",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_38.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_39",
+      "path": "key/Obj_SubstituteCloth_39.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_39",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_39.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_40",
+      "path": "key/Obj_SubstituteCloth_40.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_40",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_40.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_41",
+      "path": "key/Obj_SubstituteCloth_41.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_41",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_41.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_43",
+      "path": "key/Obj_SubstituteCloth_43.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_43",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_43.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_45",
+      "path": "key/Obj_SubstituteCloth_45.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_45",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_45.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_46",
+      "path": "key/Obj_SubstituteCloth_46.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_46",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_46.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_48",
+      "path": "key/Obj_SubstituteCloth_48.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_48",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_48.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_49",
+      "path": "key/Obj_SubstituteCloth_49.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_49",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_49.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_51",
+      "path": "key/Obj_SubstituteCloth_51.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_51",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_51.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_52",
+      "path": "key/Obj_SubstituteCloth_52.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_52",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_52.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_53",
+      "path": "key/Obj_SubstituteCloth_53.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_53",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_53.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_55",
+      "path": "key/Obj_SubstituteCloth_55.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_55",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_55.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_56",
+      "path": "key/Obj_SubstituteCloth_56.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_56",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_56.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_57",
+      "path": "key/Obj_SubstituteCloth_57.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_57",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_57.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_58",
+      "path": "key/Obj_SubstituteCloth_58.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_58",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_58.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_59",
+      "path": "key/Obj_SubstituteCloth_59.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_59",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_59.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_60",
+      "path": "key/Obj_SubstituteCloth_60.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_60",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_60.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_61",
+      "path": "key/Obj_SubstituteCloth_61.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_61",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_61.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_SubstituteCloth_Default",
+      "path": "key/Obj_SubstituteCloth_Default.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Obj_SubstituteCloth_Default",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_SubstituteCloth_Default.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_WarpDLC",
+      "path": "key/Obj_WarpDLC.png",
+      "width": 150,
+      "height": 150,
+      "source": "totkimages_items",
+      "donor_id": "Obj_WarpDLC",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_WarpDLC.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Obj_WarpDLC_Prototype",
+      "path": "key/Obj_WarpDLC_Prototype.png",
+      "width": 150,
+      "height": 150,
+      "source": "totkimages_items",
+      "donor_id": "Obj_WarpDLC_Prototype",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Obj_WarpDLC_Prototype.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail",
+      "path": "key/Parasail.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern00",
+      "path": "key/Parasail_Pattern00.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern00",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern00.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern01",
+      "path": "key/Parasail_Pattern01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern02",
+      "path": "key/Parasail_Pattern02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern03",
+      "path": "key/Parasail_Pattern03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern04",
+      "path": "key/Parasail_Pattern04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern05",
+      "path": "key/Parasail_Pattern05.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern05",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern05.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern06",
+      "path": "key/Parasail_Pattern06.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern06",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern06.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern07",
+      "path": "key/Parasail_Pattern07.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern07",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern07.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern08",
+      "path": "key/Parasail_Pattern08.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern08",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern08.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern09",
+      "path": "key/Parasail_Pattern09.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern09",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern09.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern10",
+      "path": "key/Parasail_Pattern10.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern10",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern10.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern11",
+      "path": "key/Parasail_Pattern11.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern11",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern11.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern12",
+      "path": "key/Parasail_Pattern12.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern12",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern12.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern13",
+      "path": "key/Parasail_Pattern13.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern13",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern13.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern14",
+      "path": "key/Parasail_Pattern14.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern14",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern14.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern15",
+      "path": "key/Parasail_Pattern15.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern15",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern15.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern16",
+      "path": "key/Parasail_Pattern16.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern16",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern16.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern17",
+      "path": "key/Parasail_Pattern17.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern17",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern17.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern18",
+      "path": "key/Parasail_Pattern18.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern18",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern18.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern19",
+      "path": "key/Parasail_Pattern19.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern19",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern19.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern20",
+      "path": "key/Parasail_Pattern20.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern20",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern20.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern21",
+      "path": "key/Parasail_Pattern21.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern21",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern21.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern22",
+      "path": "key/Parasail_Pattern22.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern22",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern22.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern23",
+      "path": "key/Parasail_Pattern23.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern23",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern23.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern24",
+      "path": "key/Parasail_Pattern24.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern24",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern24.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern25",
+      "path": "key/Parasail_Pattern25.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern25",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern25.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern26",
+      "path": "key/Parasail_Pattern26.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern26",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern26.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern27",
+      "path": "key/Parasail_Pattern27.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern27",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern27.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern28",
+      "path": "key/Parasail_Pattern28.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern28",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern28.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern29",
+      "path": "key/Parasail_Pattern29.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern29",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern29.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern30",
+      "path": "key/Parasail_Pattern30.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern30",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern30.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern31",
+      "path": "key/Parasail_Pattern31.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern31",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern31.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern32",
+      "path": "key/Parasail_Pattern32.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern32",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern32.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern33",
+      "path": "key/Parasail_Pattern33.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern33",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern33.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern34",
+      "path": "key/Parasail_Pattern34.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern34",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern34.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern35",
+      "path": "key/Parasail_Pattern35.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern35",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern35.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern36",
+      "path": "key/Parasail_Pattern36.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern36",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern36.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern37",
+      "path": "key/Parasail_Pattern37.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern37",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern37.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern38",
+      "path": "key/Parasail_Pattern38.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern38",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern38.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern39",
+      "path": "key/Parasail_Pattern39.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern39",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern39.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern40",
+      "path": "key/Parasail_Pattern40.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern40",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern40.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern41",
+      "path": "key/Parasail_Pattern41.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern41",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern41.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern43",
+      "path": "key/Parasail_Pattern43.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern43",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern43.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern45",
+      "path": "key/Parasail_Pattern45.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern45",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern45.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern46",
+      "path": "key/Parasail_Pattern46.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern46",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern46.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern48",
+      "path": "key/Parasail_Pattern48.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern48",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern48.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern49",
+      "path": "key/Parasail_Pattern49.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern49",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern49.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern51",
+      "path": "key/Parasail_Pattern51.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern51",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern51.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern52",
+      "path": "key/Parasail_Pattern52.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern52",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern52.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern53",
+      "path": "key/Parasail_Pattern53.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern53",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern53.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern55",
+      "path": "key/Parasail_Pattern55.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern55",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern55.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern56",
+      "path": "key/Parasail_Pattern56.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern56",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern56.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern57",
+      "path": "key/Parasail_Pattern57.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern57",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern57.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern58",
+      "path": "key/Parasail_Pattern58.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern58",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern58.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern59",
+      "path": "key/Parasail_Pattern59.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern59",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern59.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern60",
+      "path": "key/Parasail_Pattern60.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern60",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern60.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Parasail_Pattern61",
+      "path": "key/Parasail_Pattern61.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Parasail_Pattern61",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Parasail_Pattern61.png",
+      "alias_used": false
+    }
+  ],
+  "parasail_pattern_count": 57,
+  "max_long_edge": 200,
+  "normalize_policy": "shrink_only_skip_horses"
+}

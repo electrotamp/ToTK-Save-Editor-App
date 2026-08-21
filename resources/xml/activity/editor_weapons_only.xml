@@ -1,0 +1,6 @@
+<brls:AppletFrame
+    iconInterpolation="linear"
+    footerHidden="false"
+    headerHidden="false">
+    <ItemListTabWeapons id="weaponsTab"/>
+</brls:AppletFrame>

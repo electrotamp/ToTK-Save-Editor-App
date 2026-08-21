@@ -1,0 +1,26 @@
+{
+  "category": "arrows",
+  "tab": "arrows",
+  "output_dir": "resources/assets/item_icons/arrows",
+  "policy": "highest_resolution_online_source_no_downscale",
+  "sources_tried": [
+    "TOTKImages/Items",
+    "marcrobledo/savegame-editors item_icons"
+  ],
+  "total_targets": 1,
+  "fetched": 1,
+  "missing": 0,
+  "alias_used": 0,
+  "files": [
+    {
+      "item_id": "NormalArrow",
+      "path": "arrows/NormalArrow.png",
+      "width": 144,
+      "height": 144,
+      "source": "totkimages_items",
+      "donor_id": "NormalArrow",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/NormalArrow.png",
+      "alias_used": false
+    }
+  ]
+}

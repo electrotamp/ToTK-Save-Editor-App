@@ -1,0 +1,13 @@
+<brls:AppletFrame
+    iconInterpolation="linear"
+    headerHidden="true"
+    footerHidden="true">
+    <brls:Box
+        id="splashRoot"
+        width="auto"
+        height="auto"
+        axis="column"
+        alignItems="center"
+        justifyContent="center"
+        grow="1.0"/>
+</brls:AppletFrame>

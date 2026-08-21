@@ -1,0 +1,14 @@
+<brls:AppletFrame
+    iconInterpolation="linear"
+    background="sidebar">
+    <brls:Box
+        id="slotList"
+        width="auto"
+        height="auto"
+        grow="1.0"
+        axis="column"
+        paddingTop="@style/brls/sidebar/padding_top"
+        paddingLeft="@style/brls/sidebar/padding_left"
+        paddingRight="@style/brls/sidebar/padding_right"
+        paddingBottom="@style/brls/sidebar/padding_bottom"/>
+</brls:AppletFrame>

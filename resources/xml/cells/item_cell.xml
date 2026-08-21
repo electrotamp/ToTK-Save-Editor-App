@@ -1,0 +1,33 @@
+<brls:Box
+    width="auto"
+    height="auto"
+    focusable="true"
+    paddingTop="10"
+    paddingBottom="10">
+
+    <brls:Image
+        id="icon"
+        width="48px"
+        height="48px"
+        marginLeft="@style/brls/sidebar/item_accent_margin_sides"
+        marginRight="12"/>
+
+    <brls:Box
+        width="auto"
+        height="auto"
+        axis="column"
+        grow="1.0">
+        <brls:Label
+            id="title"
+            width="auto"
+            height="auto"
+            fontSize="@style/brls/sidebar/item_font_size"/>
+        <brls:Label
+            id="subtitle"
+            width="auto"
+            height="auto"
+            fontSize="18"
+            textColor="@theme/brls/text_disabled"/>
+    </brls:Box>
+
+</brls:Box>

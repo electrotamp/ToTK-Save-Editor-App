@@ -1,0 +1,1341 @@
+{
+  "category": "weapons",
+  "tab": "weapons",
+  "output_dir": "resources/assets/item_icons/weapons",
+  "policy": "highest_resolution_online_source_no_downscale",
+  "sources_tried": [
+    "TOTKImages/Weapons",
+    "TOTKImages/Items",
+    "marcrobledo/savegame-editors item_icons"
+  ],
+  "total_targets": 131,
+  "fetched": 127,
+  "missing": 4,
+  "alias_used": 8,
+  "files": [
+    {
+      "item_id": "Demo910_Torch",
+      "path": "weapons/Demo910_Torch.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_043",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_043.png",
+      "alias_used": true,
+      "note": "donor Weapon_Sword_043"
+    },
+    {
+      "item_id": "Npc_Zelda_Torch",
+      "path": "weapons/Npc_Zelda_Torch.png",
+      "width": 128,
+      "height": 128,
+      "source": "marcrobledo",
+      "donor_id": "Npc_Zelda_Torch",
+      "url": "https://raw.githubusercontent.com/marcrobledo/savegame-editors/master/zelda-totk/assets/item_icons/weapons/Npc_Zelda_Torch.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_DungeonBossZonau",
+      "path": "weapons/Weapon_DungeonBossZonau.png",
+      "width": 0,
+      "height": 0,
+      "source": "missing",
+      "donor_id": "Weapon_DungeonBossZonau",
+      "url": "",
+      "alias_used": false,
+      "note": "no online source found"
+    },
+    {
+      "item_id": "Weapon_Goron_Knuckle",
+      "path": "weapons/Weapon_Goron_Knuckle.png",
+      "width": 0,
+      "height": 0,
+      "source": "missing",
+      "donor_id": "Weapon_Goron_Knuckle",
+      "url": "",
+      "alias_used": false,
+      "note": "no online source found"
+    },
+    {
+      "item_id": "Weapon_Lsword_001",
+      "path": "weapons/Weapon_Lsword_001.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_001",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_001.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_002",
+      "path": "weapons/Weapon_Lsword_002.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_002",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_002.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_003",
+      "path": "weapons/Weapon_Lsword_003.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_003",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_003.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_019",
+      "path": "weapons/Weapon_Lsword_019.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_019",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_019.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_020",
+      "path": "weapons/Weapon_Lsword_020.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_020",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_020.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_024",
+      "path": "weapons/Weapon_Lsword_024.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_024",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_024.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_027",
+      "path": "weapons/Weapon_Lsword_027.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_027",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_027.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_029",
+      "path": "weapons/Weapon_Lsword_029.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_029",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_029.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_036",
+      "path": "weapons/Weapon_Lsword_036.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_036",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_036.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_038",
+      "path": "weapons/Weapon_Lsword_038.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_038",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_038.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_041",
+      "path": "weapons/Weapon_Lsword_041.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_041",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_041.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_045",
+      "path": "weapons/Weapon_Lsword_045.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_045",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_045.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_047",
+      "path": "weapons/Weapon_Lsword_047.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_047",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_047.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_051",
+      "path": "weapons/Weapon_Lsword_051.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_051",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_051.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_054",
+      "path": "weapons/Weapon_Lsword_054.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_054",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_054.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_057",
+      "path": "weapons/Weapon_Lsword_057.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_057",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_057.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_059",
+      "path": "weapons/Weapon_Lsword_059.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_059",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_059.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_060",
+      "path": "weapons/Weapon_Lsword_060.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_060",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_060.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_101",
+      "path": "weapons/Weapon_Lsword_101.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_101",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_101.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_103",
+      "path": "weapons/Weapon_Lsword_103.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_103",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_103.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_106",
+      "path": "weapons/Weapon_Lsword_106.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_106",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_106.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_108",
+      "path": "weapons/Weapon_Lsword_108.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_108",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_108.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_109",
+      "path": "weapons/Weapon_Lsword_109.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_109",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_109.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_112",
+      "path": "weapons/Weapon_Lsword_112.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_112",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_112.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_113",
+      "path": "weapons/Weapon_Lsword_113.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_113",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_113.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_114",
+      "path": "weapons/Weapon_Lsword_114.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_114",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_114.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_124",
+      "path": "weapons/Weapon_Lsword_124.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_124",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_124.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_127",
+      "path": "weapons/Weapon_Lsword_127.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_127",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_127.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_129",
+      "path": "weapons/Weapon_Lsword_129.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_129",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_129.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_136",
+      "path": "weapons/Weapon_Lsword_136.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_136",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_136.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_147",
+      "path": "weapons/Weapon_Lsword_147.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_147",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_147.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_154",
+      "path": "weapons/Weapon_Lsword_154.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_054",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_054.png",
+      "alias_used": true,
+      "note": "donor Weapon_Lsword_054"
+    },
+    {
+      "item_id": "Weapon_Lsword_161",
+      "path": "weapons/Weapon_Lsword_161.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_161",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_161.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_163",
+      "path": "weapons/Weapon_Lsword_163.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_163",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_163.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_164",
+      "path": "weapons/Weapon_Lsword_164.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_164",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_164.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_166",
+      "path": "weapons/Weapon_Lsword_166.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_166",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_166.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_168",
+      "path": "weapons/Weapon_Lsword_168.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_168",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_168.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Lsword_174",
+      "path": "weapons/Weapon_Lsword_174.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Lsword_174",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Lsword_174.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_RaumiGolem_Left",
+      "path": "weapons/Weapon_RaumiGolem_Left.png",
+      "width": 0,
+      "height": 0,
+      "source": "missing",
+      "donor_id": "Weapon_RaumiGolem_Left",
+      "url": "",
+      "alias_used": false,
+      "note": "no online source found"
+    },
+    {
+      "item_id": "Weapon_RaumiGolem_Right",
+      "path": "weapons/Weapon_RaumiGolem_Right.png",
+      "width": 0,
+      "height": 0,
+      "source": "missing",
+      "donor_id": "Weapon_RaumiGolem_Right",
+      "url": "",
+      "alias_used": false,
+      "note": "no online source found"
+    },
+    {
+      "item_id": "Weapon_Spear_001",
+      "path": "weapons/Weapon_Spear_001.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_001",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_001.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_002",
+      "path": "weapons/Weapon_Spear_002.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_002",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_002.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_003",
+      "path": "weapons/Weapon_Spear_003.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_003",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_003.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_021",
+      "path": "weapons/Weapon_Spear_021.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_021",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_021.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_022",
+      "path": "weapons/Weapon_Spear_022.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_022",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_022.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_024",
+      "path": "weapons/Weapon_Spear_024.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_024",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_024.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_025",
+      "path": "weapons/Weapon_Spear_025.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_025",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_025.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_027",
+      "path": "weapons/Weapon_Spear_027.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_027",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_027.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_029",
+      "path": "weapons/Weapon_Spear_029.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_029",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_029.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_030",
+      "path": "weapons/Weapon_Spear_030.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_030",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_030.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_032",
+      "path": "weapons/Weapon_Spear_032.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_032",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_032.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_036",
+      "path": "weapons/Weapon_Spear_036.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_036",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_036.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_036_MercenarySoldier",
+      "path": "weapons/Weapon_Spear_036_MercenarySoldier.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_036",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_036.png",
+      "alias_used": true,
+      "note": "donor Weapon_Spear_036"
+    },
+    {
+      "item_id": "Weapon_Spear_038",
+      "path": "weapons/Weapon_Spear_038.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_038",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_038.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_047",
+      "path": "weapons/Weapon_Spear_047.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_047",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_047.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_050",
+      "path": "weapons/Weapon_Spear_050.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_050",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_050.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_101",
+      "path": "weapons/Weapon_Spear_101.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_101",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_101.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_103",
+      "path": "weapons/Weapon_Spear_103.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_103",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_103.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_106",
+      "path": "weapons/Weapon_Spear_106.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_106",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_106.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_108",
+      "path": "weapons/Weapon_Spear_108.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_108",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_108.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_109",
+      "path": "weapons/Weapon_Spear_109.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_109",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_109.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_112",
+      "path": "weapons/Weapon_Spear_112.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_112",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_112.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_113",
+      "path": "weapons/Weapon_Spear_113.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_113",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_113.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_124",
+      "path": "weapons/Weapon_Spear_124.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_124",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_124.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_125",
+      "path": "weapons/Weapon_Spear_125.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_125",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_125.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_127",
+      "path": "weapons/Weapon_Spear_127.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_127",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_127.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_129",
+      "path": "weapons/Weapon_Spear_129.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_129",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_129.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_132",
+      "path": "weapons/Weapon_Spear_132.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_132",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_132.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_147",
+      "path": "weapons/Weapon_Spear_147.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_147",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_147.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_150",
+      "path": "weapons/Weapon_Spear_150.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_050",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_050.png",
+      "alias_used": true,
+      "note": "donor Weapon_Spear_050"
+    },
+    {
+      "item_id": "Weapon_Spear_161",
+      "path": "weapons/Weapon_Spear_161.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_161",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_161.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_163",
+      "path": "weapons/Weapon_Spear_163.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_163",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_163.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_164",
+      "path": "weapons/Weapon_Spear_164.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_164",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_164.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_166",
+      "path": "weapons/Weapon_Spear_166.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_166",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_166.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_168",
+      "path": "weapons/Weapon_Spear_168.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_168",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_168.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Spear_173",
+      "path": "weapons/Weapon_Spear_173.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Spear_173",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Spear_173.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_001",
+      "path": "weapons/Weapon_Sword_001.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_001",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_001.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_002",
+      "path": "weapons/Weapon_Sword_002.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_002",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_002.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_003",
+      "path": "weapons/Weapon_Sword_003.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_003",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_003.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_019",
+      "path": "weapons/Weapon_Sword_019.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_019",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_019.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_020",
+      "path": "weapons/Weapon_Sword_020.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_020",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_020.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_021",
+      "path": "weapons/Weapon_Sword_021.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_021",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_021.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_022",
+      "path": "weapons/Weapon_Sword_022.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_022",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_022.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_024",
+      "path": "weapons/Weapon_Sword_024.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_024",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_024.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_025",
+      "path": "weapons/Weapon_Sword_025.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_025",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_025.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_027",
+      "path": "weapons/Weapon_Sword_027.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_027",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_027.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_029",
+      "path": "weapons/Weapon_Sword_029.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_029",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_029.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_031",
+      "path": "weapons/Weapon_Sword_031.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_031",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_031.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_041",
+      "path": "weapons/Weapon_Sword_041.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_041",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_041.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_043",
+      "path": "weapons/Weapon_Sword_043.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_043",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_043.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_043_SetFire",
+      "path": "weapons/Weapon_Sword_043_SetFire.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_043_SetFire",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_043_SetFire.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_044",
+      "path": "weapons/Weapon_Sword_044.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_044",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_044.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_047",
+      "path": "weapons/Weapon_Sword_047.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_047",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_047.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_051",
+      "path": "weapons/Weapon_Sword_051.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_051",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_051.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_052",
+      "path": "weapons/Weapon_Sword_052.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_052",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_052.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_057",
+      "path": "weapons/Weapon_Sword_057.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_057",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_057.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_058",
+      "path": "weapons/Weapon_Sword_058.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_058",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_058.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_059",
+      "path": "weapons/Weapon_Sword_059.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_059",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_059.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_070",
+      "path": "weapons/Weapon_Sword_070.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_070",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_070.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_070_Broken",
+      "path": "weapons/Weapon_Sword_070_Broken.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_070_Broken",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_070_Broken.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_071",
+      "path": "weapons/Weapon_Sword_071.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_070",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_070.png",
+      "alias_used": true,
+      "note": "donor Weapon_Sword_070"
+    },
+    {
+      "item_id": "Weapon_Sword_071_Broken",
+      "path": "weapons/Weapon_Sword_071_Broken.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_070",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_070.png",
+      "alias_used": true,
+      "note": "donor Weapon_Sword_070"
+    },
+    {
+      "item_id": "Weapon_Sword_077",
+      "path": "weapons/Weapon_Sword_077.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_077",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_077.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_101",
+      "path": "weapons/Weapon_Sword_101.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_101",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_101.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_103",
+      "path": "weapons/Weapon_Sword_103.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_103",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_103.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_105",
+      "path": "weapons/Weapon_Sword_105.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_105",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_105.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_106",
+      "path": "weapons/Weapon_Sword_106.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_106",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_106.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_107",
+      "path": "weapons/Weapon_Sword_107.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_107",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_107.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_108",
+      "path": "weapons/Weapon_Sword_108.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_108",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_108.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_109",
+      "path": "weapons/Weapon_Sword_109.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_109",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_109.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_112",
+      "path": "weapons/Weapon_Sword_112.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_112",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_112.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_113",
+      "path": "weapons/Weapon_Sword_113.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_113",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_113.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_114",
+      "path": "weapons/Weapon_Sword_114.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_114",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_114.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_124",
+      "path": "weapons/Weapon_Sword_124.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_124",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_124.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_125",
+      "path": "weapons/Weapon_Sword_125.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_125",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_125.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_127",
+      "path": "weapons/Weapon_Sword_127.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_127",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_127.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_129",
+      "path": "weapons/Weapon_Sword_129.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_129",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_129.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_131",
+      "path": "weapons/Weapon_Sword_131.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_131",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_131.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_147",
+      "path": "weapons/Weapon_Sword_147.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_147",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_147.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_152_Main",
+      "path": "weapons/Weapon_Sword_152_Main.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_052",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_052.png",
+      "alias_used": true,
+      "note": "donor Weapon_Sword_052"
+    },
+    {
+      "item_id": "Weapon_Sword_152_Sub",
+      "path": "weapons/Weapon_Sword_152_Sub.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_052",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_052.png",
+      "alias_used": true,
+      "note": "donor Weapon_Sword_052"
+    },
+    {
+      "item_id": "Weapon_Sword_161",
+      "path": "weapons/Weapon_Sword_161.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_161",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_161.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_163",
+      "path": "weapons/Weapon_Sword_163.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_163",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_163.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_164",
+      "path": "weapons/Weapon_Sword_164.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_164",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_164.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_166",
+      "path": "weapons/Weapon_Sword_166.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_166",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_166.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_167",
+      "path": "weapons/Weapon_Sword_167.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_167",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_167.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Sword_168",
+      "path": "weapons/Weapon_Sword_168.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Sword_168",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Sword_168.png",
+      "alias_used": false
+    }
+  ],
+  "max_long_edge": 200,
+  "normalize_policy": "shrink_only_skip_horses"
+}

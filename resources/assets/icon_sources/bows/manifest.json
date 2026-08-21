@@ -1,0 +1,374 @@
+{
+  "category": "bows",
+  "tab": "bows",
+  "output_dir": "resources/assets/item_icons/bows",
+  "policy": "highest_resolution_online_source_no_downscale",
+  "sources_tried": [
+    "TOTKImages/Weapons",
+    "TOTKImages/Items",
+    "marcrobledo/savegame-editors item_icons"
+  ],
+  "total_targets": 35,
+  "fetched": 35,
+  "missing": 0,
+  "alias_used": 5,
+  "files": [
+    {
+      "item_id": "Weapon_Bow_001",
+      "path": "bows/Weapon_Bow_001.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_001",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_001.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_002",
+      "path": "bows/Weapon_Bow_002.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_002",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_002.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_003",
+      "path": "bows/Weapon_Bow_003.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_003",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_003.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_004",
+      "path": "bows/Weapon_Bow_004.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_004",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_004.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_006",
+      "path": "bows/Weapon_Bow_006.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_006",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_006.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_009",
+      "path": "bows/Weapon_Bow_009.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_009",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_009.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_011",
+      "path": "bows/Weapon_Bow_011.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_011",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_011.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_013",
+      "path": "bows/Weapon_Bow_013.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_013",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_013.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_014",
+      "path": "bows/Weapon_Bow_014.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_014",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_014.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_015",
+      "path": "bows/Weapon_Bow_015.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_015",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_015.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_016",
+      "path": "bows/Weapon_Bow_016.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_016",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_016.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_016_Event",
+      "path": "bows/Weapon_Bow_016_Event.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_016",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_016.png",
+      "alias_used": true,
+      "note": "donor Weapon_Bow_016"
+    },
+    {
+      "item_id": "Weapon_Bow_017",
+      "path": "bows/Weapon_Bow_017.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_017",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_017.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_026",
+      "path": "bows/Weapon_Bow_026.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_026",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_026.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_027",
+      "path": "bows/Weapon_Bow_027.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_027",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_027.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_028",
+      "path": "bows/Weapon_Bow_028.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_028",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_028.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_029",
+      "path": "bows/Weapon_Bow_029.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_029",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_029.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_030",
+      "path": "bows/Weapon_Bow_030.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_030",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_030.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_032",
+      "path": "bows/Weapon_Bow_032.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_032",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_032.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_033",
+      "path": "bows/Weapon_Bow_033.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_033",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_033.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_035",
+      "path": "bows/Weapon_Bow_035.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_035",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_035.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_036",
+      "path": "bows/Weapon_Bow_036.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_036",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_036.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_038",
+      "path": "bows/Weapon_Bow_038.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_038",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_038.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_040",
+      "path": "bows/Weapon_Bow_040.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_040",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_040.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_072",
+      "path": "bows/Weapon_Bow_072.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_072",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_072.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_101",
+      "path": "bows/Weapon_Bow_101.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_101",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_101.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_104",
+      "path": "bows/Weapon_Bow_104.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_104",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_104.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_105",
+      "path": "bows/Weapon_Bow_105.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_105",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_105.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_106",
+      "path": "bows/Weapon_Bow_106.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_106",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_106.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_107",
+      "path": "bows/Weapon_Bow_107.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_107",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_107.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_116",
+      "path": "bows/Weapon_Bow_116.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_016",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_016.png",
+      "alias_used": true,
+      "note": "donor Weapon_Bow_016"
+    },
+    {
+      "item_id": "Weapon_Bow_128",
+      "path": "bows/Weapon_Bow_128.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_028",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_028.png",
+      "alias_used": true,
+      "note": "donor Weapon_Bow_028"
+    },
+    {
+      "item_id": "Weapon_Bow_129",
+      "path": "bows/Weapon_Bow_129.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_028",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_028.png",
+      "alias_used": true,
+      "note": "donor Weapon_Bow_028"
+    },
+    {
+      "item_id": "Weapon_Bow_166",
+      "path": "bows/Weapon_Bow_166.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_166",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_166.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Bow_166_For_Ganondorf",
+      "path": "bows/Weapon_Bow_166_For_Ganondorf.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Bow_166",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Bow_166.png",
+      "alias_used": true,
+      "note": "donor Weapon_Bow_166"
+    }
+  ],
+  "max_long_edge": 200,
+  "normalize_policy": "shrink_only_skip_horses"
+}

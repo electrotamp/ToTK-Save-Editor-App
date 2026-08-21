@@ -1,0 +1,17 @@
+<brls:AppletFrame
+    iconInterpolation="linear"
+    footerHidden="false"
+    headerHidden="false">
+    <EditorPagerFrame
+        title="TotK Save Editor">
+
+        <brls:Tab label="Stats">
+            <StatusTab id="statusTab"/>
+        </brls:Tab>
+
+        <brls:Tab label="Weapons">
+            <ItemListTabWeapons/>
+        </brls:Tab>
+
+    </EditorPagerFrame>
+</brls:AppletFrame>

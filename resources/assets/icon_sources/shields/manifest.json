@@ -1,0 +1,448 @@
+{
+  "category": "shields",
+  "tab": "shields",
+  "output_dir": "resources/assets/item_icons/shields",
+  "policy": "highest_resolution_online_source_no_downscale",
+  "sources_tried": [
+    "TOTKImages/Weapons",
+    "TOTKImages/Items",
+    "marcrobledo/savegame-editors item_icons"
+  ],
+  "total_targets": 42,
+  "fetched": 40,
+  "missing": 2,
+  "alias_used": 7,
+  "files": [
+    {
+      "item_id": "Weapon_DungeonBossZonau_Front",
+      "path": "shields/Weapon_DungeonBossZonau_Front.png",
+      "width": 0,
+      "height": 0,
+      "source": "missing",
+      "donor_id": "Weapon_DungeonBossZonau_Front",
+      "url": "",
+      "alias_used": false,
+      "note": "no online source found"
+    },
+    {
+      "item_id": "Weapon_RaumiGolem_Back",
+      "path": "shields/Weapon_RaumiGolem_Back.png",
+      "width": 0,
+      "height": 0,
+      "source": "missing",
+      "donor_id": "Weapon_RaumiGolem_Back",
+      "url": "",
+      "alias_used": false,
+      "note": "no online source found"
+    },
+    {
+      "item_id": "Weapon_Shield_001",
+      "path": "shields/Weapon_Shield_001.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_001",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_001.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_001_NoBurned",
+      "path": "shields/Weapon_Shield_001_NoBurned.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_001",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_001.png",
+      "alias_used": true,
+      "note": "donor Weapon_Shield_001"
+    },
+    {
+      "item_id": "Weapon_Shield_002",
+      "path": "shields/Weapon_Shield_002.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_002",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_002.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_002_NoBurned",
+      "path": "shields/Weapon_Shield_002_NoBurned.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_002",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_002.png",
+      "alias_used": true,
+      "note": "donor Weapon_Shield_002"
+    },
+    {
+      "item_id": "Weapon_Shield_003",
+      "path": "shields/Weapon_Shield_003.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_003",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_003.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_004",
+      "path": "shields/Weapon_Shield_004.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_004",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_004.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_005",
+      "path": "shields/Weapon_Shield_005.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_005",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_005.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_006",
+      "path": "shields/Weapon_Shield_006.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_006",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_006.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_007",
+      "path": "shields/Weapon_Shield_007.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_007",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_007.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_008",
+      "path": "shields/Weapon_Shield_008.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_008",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_008.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_009",
+      "path": "shields/Weapon_Shield_009.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_009",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_009.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_016",
+      "path": "shields/Weapon_Shield_016.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_016",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_016.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_017",
+      "path": "shields/Weapon_Shield_017.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_017",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_017.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_018",
+      "path": "shields/Weapon_Shield_018.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_018",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_018.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_021",
+      "path": "shields/Weapon_Shield_021.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_021",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_021.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_022",
+      "path": "shields/Weapon_Shield_022.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_022",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_022.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_023",
+      "path": "shields/Weapon_Shield_023.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_023",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_023.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_025",
+      "path": "shields/Weapon_Shield_025.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_025",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_025.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_026",
+      "path": "shields/Weapon_Shield_026.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_026",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_026.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_030",
+      "path": "shields/Weapon_Shield_030.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_030",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_030.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_031",
+      "path": "shields/Weapon_Shield_031.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_031",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_031.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_031_NoBurned",
+      "path": "shields/Weapon_Shield_031_NoBurned.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_031",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_031.png",
+      "alias_used": true,
+      "note": "donor Weapon_Shield_031"
+    },
+    {
+      "item_id": "Weapon_Shield_032",
+      "path": "shields/Weapon_Shield_032.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_032",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_032.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_032_NoBurned",
+      "path": "shields/Weapon_Shield_032_NoBurned.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_032",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_032.png",
+      "alias_used": true,
+      "note": "donor Weapon_Shield_032"
+    },
+    {
+      "item_id": "Weapon_Shield_033",
+      "path": "shields/Weapon_Shield_033.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_033",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_033.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_034",
+      "path": "shields/Weapon_Shield_034.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_034",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_034.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_034_NoBurned",
+      "path": "shields/Weapon_Shield_034_NoBurned.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_034",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_034.png",
+      "alias_used": true,
+      "note": "donor Weapon_Shield_034"
+    },
+    {
+      "item_id": "Weapon_Shield_035",
+      "path": "shields/Weapon_Shield_035.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_035",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_035.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_035_NoBurned",
+      "path": "shields/Weapon_Shield_035_NoBurned.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_035",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_035.png",
+      "alias_used": true,
+      "note": "donor Weapon_Shield_035"
+    },
+    {
+      "item_id": "Weapon_Shield_036",
+      "path": "shields/Weapon_Shield_036.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_036",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_036.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_037",
+      "path": "shields/Weapon_Shield_037.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_037",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_037.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_040",
+      "path": "shields/Weapon_Shield_040.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_040",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_040.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_041",
+      "path": "shields/Weapon_Shield_041.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_041",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_041.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_042",
+      "path": "shields/Weapon_Shield_042.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_042",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_042.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_042_NoBurned",
+      "path": "shields/Weapon_Shield_042_NoBurned.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_042",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_042.png",
+      "alias_used": true,
+      "note": "donor Weapon_Shield_042"
+    },
+    {
+      "item_id": "Weapon_Shield_057",
+      "path": "shields/Weapon_Shield_057.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_057",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_057.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_101",
+      "path": "shields/Weapon_Shield_101.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_101",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_101.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_102",
+      "path": "shields/Weapon_Shield_102.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_102",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_102.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_103",
+      "path": "shields/Weapon_Shield_103.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_103",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_103.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Weapon_Shield_107",
+      "path": "shields/Weapon_Shield_107.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_weapons",
+      "donor_id": "Weapon_Shield_107",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Weapons/Weapon_Shield_107.png",
+      "alias_used": false
+    }
+  ],
+  "max_long_edge": 200,
+  "normalize_policy": "shrink_only_skip_horses"
+}

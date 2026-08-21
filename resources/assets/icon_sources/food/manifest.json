@@ -1,0 +1,2321 @@
+{
+  "category": "food",
+  "tab": "food",
+  "output_dir": "resources/assets/item_icons/food",
+  "policy": "highest_resolution_online_source_no_downscale",
+  "sources_tried": [
+    "TOTKImages/Items",
+    "marcrobledo/savegame-editors item_icons"
+  ],
+  "total_targets": 230,
+  "fetched": 229,
+  "missing": 1,
+  "alias_used": 0,
+  "files": [
+    {
+      "item_id": "BoarMeat",
+      "path": "food/BoarMeat.png",
+      "width": 0,
+      "height": 0,
+      "source": "missing",
+      "donor_id": "BoarMeat",
+      "url": "",
+      "alias_used": false,
+      "note": "no online source found"
+    },
+    {
+      "item_id": "Item_Boiled_01",
+      "path": "food/Item_Boiled_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Boiled_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Boiled_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_ChilledFish_01",
+      "path": "food/Item_ChilledFish_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_ChilledFish_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_ChilledFish_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_ChilledFish_02",
+      "path": "food/Item_ChilledFish_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_ChilledFish_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_ChilledFish_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_ChilledFish_03",
+      "path": "food/Item_ChilledFish_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_ChilledFish_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_ChilledFish_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_ChilledFish_04",
+      "path": "food/Item_ChilledFish_04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_ChilledFish_04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_ChilledFish_04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_ChilledFish_05",
+      "path": "food/Item_ChilledFish_05.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_ChilledFish_05",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_ChilledFish_05.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_ChilledFish_06",
+      "path": "food/Item_ChilledFish_06.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_ChilledFish_06",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_ChilledFish_06.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_ChilledFish_07",
+      "path": "food/Item_ChilledFish_07.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_ChilledFish_07",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_ChilledFish_07.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_ChilledFish_08",
+      "path": "food/Item_ChilledFish_08.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_ChilledFish_08",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_ChilledFish_08.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_ChilledFish_16",
+      "path": "food/Item_ChilledFish_16.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_ChilledFish_16",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_ChilledFish_16.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_ChilledFish_18",
+      "path": "food/Item_ChilledFish_18.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_ChilledFish_18",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_ChilledFish_18.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Chilled_01",
+      "path": "food/Item_Chilled_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Chilled_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Chilled_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Chilled_02",
+      "path": "food/Item_Chilled_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Chilled_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Chilled_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Chilled_03",
+      "path": "food/Item_Chilled_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Chilled_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Chilled_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Chilled_04",
+      "path": "food/Item_Chilled_04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Chilled_04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Chilled_04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Chilled_05",
+      "path": "food/Item_Chilled_05.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Chilled_05",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Chilled_05.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Chilled_06",
+      "path": "food/Item_Chilled_06.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Chilled_06",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Chilled_06.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_A_01",
+      "path": "food/Item_Cook_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_A_02",
+      "path": "food/Item_Cook_A_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_A_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_A_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_A_03",
+      "path": "food/Item_Cook_A_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_A_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_A_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_A_04",
+      "path": "food/Item_Cook_A_04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_A_04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_A_04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_A_05",
+      "path": "food/Item_Cook_A_05.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_A_05",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_A_05.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_A_07",
+      "path": "food/Item_Cook_A_07.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_A_07",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_A_07.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_A_08",
+      "path": "food/Item_Cook_A_08.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_A_08",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_A_08.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_A_09",
+      "path": "food/Item_Cook_A_09.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_A_09",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_A_09.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_A_10",
+      "path": "food/Item_Cook_A_10.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_A_10",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_A_10.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_A_11",
+      "path": "food/Item_Cook_A_11.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_A_11",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_A_11.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_A_12",
+      "path": "food/Item_Cook_A_12.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_A_12",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_A_12.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_A_13",
+      "path": "food/Item_Cook_A_13.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_A_13",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_A_13.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_A_14",
+      "path": "food/Item_Cook_A_14.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_A_14",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_A_14.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_B_01",
+      "path": "food/Item_Cook_B_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_B_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_B_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_B_02",
+      "path": "food/Item_Cook_B_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_B_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_B_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_B_05",
+      "path": "food/Item_Cook_B_05.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_B_05",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_B_05.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_B_06",
+      "path": "food/Item_Cook_B_06.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_B_06",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_B_06.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_B_11",
+      "path": "food/Item_Cook_B_11.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_B_11",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_B_11.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_B_12",
+      "path": "food/Item_Cook_B_12.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_B_12",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_B_12.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_B_13",
+      "path": "food/Item_Cook_B_13.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_B_13",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_B_13.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_B_15",
+      "path": "food/Item_Cook_B_15.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_B_15",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_B_15.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_B_16",
+      "path": "food/Item_Cook_B_16.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_B_16",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_B_16.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_B_17",
+      "path": "food/Item_Cook_B_17.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_B_17",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_B_17.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_B_18",
+      "path": "food/Item_Cook_B_18.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_B_18",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_B_18.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_B_19",
+      "path": "food/Item_Cook_B_19.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_B_19",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_B_19.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_B_20",
+      "path": "food/Item_Cook_B_20.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_B_20",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_B_20.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_B_21",
+      "path": "food/Item_Cook_B_21.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_B_21",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_B_21.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_B_22",
+      "path": "food/Item_Cook_B_22.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_B_22",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_B_22.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_B_23",
+      "path": "food/Item_Cook_B_23.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_B_23",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_B_23.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_C_16",
+      "path": "food/Item_Cook_C_16.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_C_16",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_C_16.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_C_17",
+      "path": "food/Item_Cook_C_17.png",
+      "width": 128,
+      "height": 128,
+      "source": "marcrobledo",
+      "donor_id": "Item_Cook_C_17",
+      "url": "https://raw.githubusercontent.com/marcrobledo/savegame-editors/master/zelda-totk/assets/item_icons/food/Item_Cook_C_17.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_C_17_AllSpeed",
+      "path": "food/Item_Cook_C_17_AllSpeed.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_C_17_AllSpeed",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_C_17_AllSpeed.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_C_17_AttackUp",
+      "path": "food/Item_Cook_C_17_AttackUp.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_C_17_AttackUp",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_C_17_AttackUp.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_C_17_DefenseUp",
+      "path": "food/Item_Cook_C_17_DefenseUp.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_C_17_DefenseUp",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_C_17_DefenseUp.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_C_17_ExStaminaMaxUp",
+      "path": "food/Item_Cook_C_17_ExStaminaMaxUp.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_C_17_ExStaminaMaxUp",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_C_17_ExStaminaMaxUp.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_C_17_LifeMaxUp",
+      "path": "food/Item_Cook_C_17_LifeMaxUp.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_C_17_LifeMaxUp",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_C_17_LifeMaxUp.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_C_17_LightEmission",
+      "path": "food/Item_Cook_C_17_LightEmission.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_C_17_LightEmission",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_C_17_LightEmission.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_C_17_NotSlippy",
+      "path": "food/Item_Cook_C_17_NotSlippy.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_C_17_NotSlippy",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_C_17_NotSlippy.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_C_17_QuietnessUp",
+      "path": "food/Item_Cook_C_17_QuietnessUp.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_C_17_QuietnessUp",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_C_17_QuietnessUp.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_C_17_ResistBurn",
+      "path": "food/Item_Cook_C_17_ResistBurn.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_C_17_ResistBurn",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_C_17_ResistBurn.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_C_17_ResistCold",
+      "path": "food/Item_Cook_C_17_ResistCold.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_C_17_ResistCold",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_C_17_ResistCold.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_C_17_ResistElectric",
+      "path": "food/Item_Cook_C_17_ResistElectric.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_C_17_ResistElectric",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_C_17_ResistElectric.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_C_17_ResistHot",
+      "path": "food/Item_Cook_C_17_ResistHot.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_C_17_ResistHot",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_C_17_ResistHot.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_C_17_StaminaRecover",
+      "path": "food/Item_Cook_C_17_StaminaRecover.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_C_17_StaminaRecover",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_C_17_StaminaRecover.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_D_01",
+      "path": "food/Item_Cook_D_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_D_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_D_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_D_02",
+      "path": "food/Item_Cook_D_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_D_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_D_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_D_03",
+      "path": "food/Item_Cook_D_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_D_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_D_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_D_04",
+      "path": "food/Item_Cook_D_04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_D_04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_D_04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_D_05",
+      "path": "food/Item_Cook_D_05.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_D_05",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_D_05.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_D_06",
+      "path": "food/Item_Cook_D_06.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_D_06",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_D_06.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_D_07",
+      "path": "food/Item_Cook_D_07.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_D_07",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_D_07.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_D_08",
+      "path": "food/Item_Cook_D_08.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_D_08",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_D_08.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_D_09",
+      "path": "food/Item_Cook_D_09.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_D_09",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_D_09.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_D_10",
+      "path": "food/Item_Cook_D_10.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_D_10",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_D_10.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_E_01",
+      "path": "food/Item_Cook_E_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_E_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_E_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_E_02",
+      "path": "food/Item_Cook_E_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_E_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_E_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_E_03",
+      "path": "food/Item_Cook_E_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_E_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_E_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_E_04",
+      "path": "food/Item_Cook_E_04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_E_04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_E_04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_F_01",
+      "path": "food/Item_Cook_F_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_F_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_F_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_F_02",
+      "path": "food/Item_Cook_F_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_F_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_F_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_F_03",
+      "path": "food/Item_Cook_F_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_F_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_F_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_F_04",
+      "path": "food/Item_Cook_F_04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_F_04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_F_04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_G_02",
+      "path": "food/Item_Cook_G_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_G_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_G_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_G_03",
+      "path": "food/Item_Cook_G_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_G_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_G_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_G_04",
+      "path": "food/Item_Cook_G_04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_G_04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_G_04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_G_05",
+      "path": "food/Item_Cook_G_05.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_G_05",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_G_05.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_G_06",
+      "path": "food/Item_Cook_G_06.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_G_06",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_G_06.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_G_09",
+      "path": "food/Item_Cook_G_09.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_G_09",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_G_09.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_G_10",
+      "path": "food/Item_Cook_G_10.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_G_10",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_G_10.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_G_11",
+      "path": "food/Item_Cook_G_11.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_G_11",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_G_11.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_G_12",
+      "path": "food/Item_Cook_G_12.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_G_12",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_G_12.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_G_13",
+      "path": "food/Item_Cook_G_13.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_G_13",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_G_13.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_G_14",
+      "path": "food/Item_Cook_G_14.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_G_14",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_G_14.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_G_15",
+      "path": "food/Item_Cook_G_15.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_G_15",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_G_15.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_G_16",
+      "path": "food/Item_Cook_G_16.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_G_16",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_G_16.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_G_17",
+      "path": "food/Item_Cook_G_17.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_G_17",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_G_17.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_H_01",
+      "path": "food/Item_Cook_H_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_H_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_H_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_H_02",
+      "path": "food/Item_Cook_H_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_H_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_H_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_H_03",
+      "path": "food/Item_Cook_H_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_H_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_H_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_I_01",
+      "path": "food/Item_Cook_I_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_I_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_I_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_I_02",
+      "path": "food/Item_Cook_I_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_I_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_I_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_I_03",
+      "path": "food/Item_Cook_I_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_I_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_I_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_I_04",
+      "path": "food/Item_Cook_I_04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_I_04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_I_04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_I_05",
+      "path": "food/Item_Cook_I_05.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_I_05",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_I_05.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_I_06",
+      "path": "food/Item_Cook_I_06.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_I_06",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_I_06.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_I_07",
+      "path": "food/Item_Cook_I_07.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_I_07",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_I_07.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_I_08",
+      "path": "food/Item_Cook_I_08.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_I_08",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_I_08.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_I_09",
+      "path": "food/Item_Cook_I_09.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_I_09",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_I_09.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_I_10",
+      "path": "food/Item_Cook_I_10.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_I_10",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_I_10.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_I_11",
+      "path": "food/Item_Cook_I_11.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_I_11",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_I_11.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_I_12",
+      "path": "food/Item_Cook_I_12.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_I_12",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_I_12.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_I_13",
+      "path": "food/Item_Cook_I_13.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_I_13",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_I_13.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_I_14",
+      "path": "food/Item_Cook_I_14.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_I_14",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_I_14.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_I_15",
+      "path": "food/Item_Cook_I_15.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_I_15",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_I_15.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_I_16",
+      "path": "food/Item_Cook_I_16.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_I_16",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_I_16.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_I_17",
+      "path": "food/Item_Cook_I_17.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_I_17",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_I_17.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_J_01",
+      "path": "food/Item_Cook_J_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_J_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_J_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_J_02",
+      "path": "food/Item_Cook_J_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_J_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_J_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_J_03",
+      "path": "food/Item_Cook_J_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_J_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_J_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_J_04",
+      "path": "food/Item_Cook_J_04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_J_04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_J_04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_J_05",
+      "path": "food/Item_Cook_J_05.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_J_05",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_J_05.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_J_06",
+      "path": "food/Item_Cook_J_06.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_J_06",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_J_06.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_J_07",
+      "path": "food/Item_Cook_J_07.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_J_07",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_J_07.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_J_08",
+      "path": "food/Item_Cook_J_08.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_J_08",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_J_08.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_J_09",
+      "path": "food/Item_Cook_J_09.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_J_09",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_J_09.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_K_01",
+      "path": "food/Item_Cook_K_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_K_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_K_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_K_02",
+      "path": "food/Item_Cook_K_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_K_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_K_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_K_03",
+      "path": "food/Item_Cook_K_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_K_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_K_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_K_04",
+      "path": "food/Item_Cook_K_04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_K_04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_K_04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_K_05",
+      "path": "food/Item_Cook_K_05.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_K_05",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_K_05.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_K_06",
+      "path": "food/Item_Cook_K_06.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_K_06",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_K_06.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_K_07",
+      "path": "food/Item_Cook_K_07.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_K_07",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_K_07.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_K_08",
+      "path": "food/Item_Cook_K_08.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_K_08",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_K_08.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_K_09",
+      "path": "food/Item_Cook_K_09.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_K_09",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_K_09.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_L_01",
+      "path": "food/Item_Cook_L_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_L_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_L_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_L_02",
+      "path": "food/Item_Cook_L_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_L_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_L_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_L_03",
+      "path": "food/Item_Cook_L_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_L_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_L_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_L_04",
+      "path": "food/Item_Cook_L_04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_L_04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_L_04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_L_05",
+      "path": "food/Item_Cook_L_05.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_L_05",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_L_05.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_M_01",
+      "path": "food/Item_Cook_M_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_M_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_M_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_N_01",
+      "path": "food/Item_Cook_N_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_N_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_N_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_N_02",
+      "path": "food/Item_Cook_N_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_N_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_N_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_N_03",
+      "path": "food/Item_Cook_N_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_N_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_N_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_N_04",
+      "path": "food/Item_Cook_N_04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_N_04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_N_04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_O_01",
+      "path": "food/Item_Cook_O_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_O_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_O_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_O_02",
+      "path": "food/Item_Cook_O_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_O_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_O_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_P_01",
+      "path": "food/Item_Cook_P_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_P_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_P_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_P_02",
+      "path": "food/Item_Cook_P_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_P_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_P_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_P_03",
+      "path": "food/Item_Cook_P_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_P_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_P_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_P_04",
+      "path": "food/Item_Cook_P_04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_P_04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_P_04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_P_05",
+      "path": "food/Item_Cook_P_05.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_P_05",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_P_05.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_Q_01",
+      "path": "food/Item_Cook_Q_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_Q_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_Q_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_Q_02",
+      "path": "food/Item_Cook_Q_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_Q_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_Q_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_Q_03",
+      "path": "food/Item_Cook_Q_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_Q_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_Q_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_Q_04",
+      "path": "food/Item_Cook_Q_04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_Q_04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_Q_04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_Q_05",
+      "path": "food/Item_Cook_Q_05.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_Q_05",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_Q_05.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_Q_06",
+      "path": "food/Item_Cook_Q_06.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_Q_06",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_Q_06.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_Q_07",
+      "path": "food/Item_Cook_Q_07.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_Q_07",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_Q_07.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_Q_08",
+      "path": "food/Item_Cook_Q_08.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_Q_08",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_Q_08.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_Q_09",
+      "path": "food/Item_Cook_Q_09.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_Q_09",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_Q_09.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_Q_10",
+      "path": "food/Item_Cook_Q_10.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_Q_10",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_Q_10.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_R_01",
+      "path": "food/Item_Cook_R_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_R_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_R_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_R_02",
+      "path": "food/Item_Cook_R_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_R_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_R_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_R_03",
+      "path": "food/Item_Cook_R_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_R_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_R_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_R_04",
+      "path": "food/Item_Cook_R_04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_R_04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_R_04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_R_05",
+      "path": "food/Item_Cook_R_05.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_R_05",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_R_05.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_R_06",
+      "path": "food/Item_Cook_R_06.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_R_06",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_R_06.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_R_07",
+      "path": "food/Item_Cook_R_07.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_R_07",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_R_07.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_R_08",
+      "path": "food/Item_Cook_R_08.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_R_08",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_R_08.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_R_09",
+      "path": "food/Item_Cook_R_09.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_R_09",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_R_09.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_R_10",
+      "path": "food/Item_Cook_R_10.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_R_10",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_R_10.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_S_01",
+      "path": "food/Item_Cook_S_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_S_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_S_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_S_02",
+      "path": "food/Item_Cook_S_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_S_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_S_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_S_03",
+      "path": "food/Item_Cook_S_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_S_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_S_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_S_04",
+      "path": "food/Item_Cook_S_04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_S_04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_S_04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_S_05",
+      "path": "food/Item_Cook_S_05.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_S_05",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_S_05.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_S_06",
+      "path": "food/Item_Cook_S_06.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_S_06",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_S_06.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_S_07",
+      "path": "food/Item_Cook_S_07.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_S_07",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_S_07.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_S_08",
+      "path": "food/Item_Cook_S_08.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_S_08",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_S_08.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_S_09",
+      "path": "food/Item_Cook_S_09.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_S_09",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_S_09.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Cook_S_10",
+      "path": "food/Item_Cook_S_10.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Cook_S_10",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Cook_S_10.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_RoastFish_01",
+      "path": "food/Item_RoastFish_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_RoastFish_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_RoastFish_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_RoastFish_02",
+      "path": "food/Item_RoastFish_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_RoastFish_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_RoastFish_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_RoastFish_03",
+      "path": "food/Item_RoastFish_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_RoastFish_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_RoastFish_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_RoastFish_04",
+      "path": "food/Item_RoastFish_04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_RoastFish_04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_RoastFish_04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_RoastFish_07",
+      "path": "food/Item_RoastFish_07.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_RoastFish_07",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_RoastFish_07.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_RoastFish_09",
+      "path": "food/Item_RoastFish_09.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_RoastFish_09",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_RoastFish_09.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_RoastFish_13",
+      "path": "food/Item_RoastFish_13.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_RoastFish_13",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_RoastFish_13.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_RoastFish_15",
+      "path": "food/Item_RoastFish_15.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_RoastFish_15",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_RoastFish_15.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_RoastFish_16",
+      "path": "food/Item_RoastFish_16.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_RoastFish_16",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_RoastFish_16.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_RoastFish_18",
+      "path": "food/Item_RoastFish_18.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_RoastFish_18",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_RoastFish_18.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_01",
+      "path": "food/Item_Roast_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_02",
+      "path": "food/Item_Roast_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_03",
+      "path": "food/Item_Roast_03.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_03",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_03.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_04",
+      "path": "food/Item_Roast_04.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_04",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_04.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_05",
+      "path": "food/Item_Roast_05.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_05",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_05.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_06",
+      "path": "food/Item_Roast_06.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_06",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_06.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_07",
+      "path": "food/Item_Roast_07.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_07",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_07.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_08",
+      "path": "food/Item_Roast_08.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_08",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_08.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_10",
+      "path": "food/Item_Roast_10.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_10",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_10.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_11",
+      "path": "food/Item_Roast_11.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_11",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_11.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_12",
+      "path": "food/Item_Roast_12.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_12",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_12.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_13",
+      "path": "food/Item_Roast_13.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_13",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_13.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_15",
+      "path": "food/Item_Roast_15.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_15",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_15.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_16",
+      "path": "food/Item_Roast_16.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_16",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_16.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_18",
+      "path": "food/Item_Roast_18.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_18",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_18.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_19",
+      "path": "food/Item_Roast_19.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_19",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_19.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_24",
+      "path": "food/Item_Roast_24.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_24",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_24.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_27",
+      "path": "food/Item_Roast_27.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_27",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_27.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_28",
+      "path": "food/Item_Roast_28.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_28",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_28.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_31",
+      "path": "food/Item_Roast_31.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_31",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_31.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_32",
+      "path": "food/Item_Roast_32.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_32",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_32.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_33",
+      "path": "food/Item_Roast_33.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_33",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_33.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_36",
+      "path": "food/Item_Roast_36.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_36",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_36.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_37",
+      "path": "food/Item_Roast_37.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_37",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_37.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_38",
+      "path": "food/Item_Roast_38.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_38",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_38.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_39",
+      "path": "food/Item_Roast_39.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_39",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_39.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_40",
+      "path": "food/Item_Roast_40.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_40",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_40.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_41",
+      "path": "food/Item_Roast_41.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_41",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_41.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_45",
+      "path": "food/Item_Roast_45.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_45",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_45.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_46",
+      "path": "food/Item_Roast_46.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_46",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_46.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_48",
+      "path": "food/Item_Roast_48.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_48",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_48.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_49",
+      "path": "food/Item_Roast_49.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_49",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_49.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_50",
+      "path": "food/Item_Roast_50.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_50",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_50.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_51",
+      "path": "food/Item_Roast_51.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_51",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_51.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_52",
+      "path": "food/Item_Roast_52.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_52",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_52.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_53",
+      "path": "food/Item_Roast_53.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_53",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_53.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_54",
+      "path": "food/Item_Roast_54.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_54",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_54.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_55",
+      "path": "food/Item_Roast_55.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_55",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_55.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_56",
+      "path": "food/Item_Roast_56.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_56",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_56.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_58",
+      "path": "food/Item_Roast_58.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_58",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_58.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "Item_Roast_59",
+      "path": "food/Item_Roast_59.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items",
+      "donor_id": "Item_Roast_59",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/Item_Roast_59.png",
+      "alias_used": false
+    }
+  ],
+  "base_food_count": 217,
+  "elixir_effect_count": 13,
+  "max_long_edge": 200,
+  "normalize_policy": "shrink_only_skip_horses"
+}

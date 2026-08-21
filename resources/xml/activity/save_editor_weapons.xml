@@ -1,0 +1,16 @@
+<brls:AppletFrame
+    iconInterpolation="linear"
+    background="sidebar"
+    footerHidden="false"
+    headerHidden="false">
+    <brls:Box
+        id="weaponsRoot"
+        axis="column"
+        grow="1.0"
+        width="100%"
+        height="100%"
+        paddingTop="12"
+        paddingRight="40"
+        paddingBottom="28"
+        paddingLeft="40"/>
+</brls:AppletFrame>

@@ -1,0 +1,292 @@
+{
+  "category": "devices",
+  "tab": "devices",
+  "output_dir": "resources/assets/item_icons/devices",
+  "policy": "highest_resolution_online_source_no_downscale",
+  "sources_tried": [
+    "TOTKImages/Items (SpObj_*_A_01 3D renders)"
+  ],
+  "total_targets": 27,
+  "fetched": 27,
+  "missing": 0,
+  "alias_used": 0,
+  "files": [
+    {
+      "item_id": "SpObj_BalloonEnvelope_Capsule_A_01",
+      "path": "devices/SpObj_BalloonEnvelope_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_BalloonEnvelope_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_BalloonEnvelope_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_Beamos_Capsule_A_01",
+      "path": "devices/SpObj_Beamos_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_Beamos_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_Beamos_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_Cannon_Capsule_A_01",
+      "path": "devices/SpObj_Cannon_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_Cannon_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_Cannon_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_Cart_Capsule_A_01",
+      "path": "devices/SpObj_Cart_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_Cart_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_Cart_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_Chaser_Capsule_A_01",
+      "path": "devices/SpObj_Chaser_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_Chaser_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_Chaser_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_ControlStick_Capsule_A_01",
+      "path": "devices/SpObj_ControlStick_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_ControlStick_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_ControlStick_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_CookSet_Capsule_A_01",
+      "path": "devices/SpObj_CookSet_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_CookSetOnFire_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_CookSetOnFire_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_ElectricBoxGenerator_Capsule_A_01",
+      "path": "devices/SpObj_ElectricBoxGenerator_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_ElectricBoxGenerator",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_ElectricBoxGenerator.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_EnergyBank_Capsule_A_01",
+      "path": "devices/SpObj_EnergyBank_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_EnergyBank_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_EnergyBank_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_EnergyBank_Capsule_A_02",
+      "path": "devices/SpObj_EnergyBank_Capsule_A_02.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_EnergyBank_A_02",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_EnergyBank_A_02.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_FastWheel_Capsule_A_01",
+      "path": "devices/SpObj_FastWheel_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_FastWheel_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_FastWheel_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_FastWheel_Capsule_B_01",
+      "path": "devices/SpObj_FastWheel_Capsule_B_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_SwitchWheel_B_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_SwitchWheel_B_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_FlameThrower_Capsule_A_01",
+      "path": "devices/SpObj_FlameThrower_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_FlameThrower_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_FlameThrower_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_FlashLight_Capsule_A_01",
+      "path": "devices/SpObj_FlashLight_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_FlashLight_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_FlashLight_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_FloatingStone_Capsule_A_01",
+      "path": "devices/SpObj_FloatingStone_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_FloatingStone_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_FloatingStone_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_GolemHead_Capsule_A_01",
+      "path": "devices/SpObj_GolemHead_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_GolemHead_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_GolemHead_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_LiftGeneratorWing_Capsule_A_01",
+      "path": "devices/SpObj_LiftGeneratorWing_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_LiftGeneratorWing_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_LiftGeneratorWing_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_LiftableWaterPump_Capsule_A_01",
+      "path": "devices/SpObj_LiftableWaterPump_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_WaterPump_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_WaterPump_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_LightMirror_Capsule_A_01",
+      "path": "devices/SpObj_LightMirror_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_LightMirror_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_LightMirror_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_Pile_Capsule_A_01",
+      "path": "devices/SpObj_Pile_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_Pile_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_Pile_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_Rocket_Capsule_A_01",
+      "path": "devices/SpObj_Rocket_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_Rocket_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_Rocket_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_SlipBoard_Capsule_A_01",
+      "path": "devices/SpObj_SlipBoard_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_SlipBoard_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_SlipBoard_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_SnowMachine_Capsule_A_01",
+      "path": "devices/SpObj_SnowMachine_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_SnowMachine_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_SnowMachine_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_SpringPiston_Capsule_A_01",
+      "path": "devices/SpObj_SpringPiston_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_SpringPiston_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_SpringPiston_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_TiltingDoll_Capsule_A_01",
+      "path": "devices/SpObj_TiltingDoll_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_TiltingDoll_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_TiltingDoll_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_TimerBomb_Capsule_A_01",
+      "path": "devices/SpObj_TimerBomb_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_TimerBomb_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_TimerBomb_A_01.png",
+      "alias_used": false
+    },
+    {
+      "item_id": "SpObj_WindGenerator_Capsule_A_01",
+      "path": "devices/SpObj_WindGenerator_Capsule_A_01.png",
+      "width": 200,
+      "height": 200,
+      "source": "totkimages_items_3d",
+      "donor_id": "SpObj_WindGenerator_A_01",
+      "url": "https://raw.githubusercontent.com/TOTKSheet/TOTKImages/main/Items/SpObj_WindGenerator_A_01.png",
+      "alias_used": false
+    }
+  ],
+  "icon_style": "totkimages_3d_render",
+  "skipped_sources": [
+    "TOTKImages/Items/*_Capsule_* (inventory orbs)",
+    "marcrobledo/savegame-editors item_icons/devices (capsule orbs)"
+  ],
+  "max_long_edge": 200,
+  "normalize_policy": "shrink_only_skip_horses"
+}
