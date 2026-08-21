@@ -148,7 +148,8 @@ An internet connection is required only for catalog browsing, images, and downlo
 
 Local imports require no internet connection. The editor writes the blueprint payload and related camera data needed by the save; it does not promise to refresh Nintendo's in-game render cache, so a reused in-game tile can temporarily show an older thumbnail even though the imported build data is present.
 
-#### Notes regarding Autobuild
+> [!CAUTION]
+> #### Notes regarding Autobuild
 
 If you care about the icon being updated, then after import, go into the game, and if there isn't already the max amount of items on the build, then add something like a flower, and it will register as a new build that you can save or use from history.
 
