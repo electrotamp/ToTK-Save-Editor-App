@@ -148,6 +148,12 @@ An internet connection is required only for catalog browsing, images, and downlo
 
 Local imports require no internet connection. The editor writes the blueprint payload and related camera data needed by the save; it does not promise to refresh Nintendo's in-game render cache, so a reused in-game tile can temporarily show an older thumbnail even though the imported build data is present.
 
+#### Notes regarding Autobuild
+
+If you care about the icon being updated, then after import, go into the game, and if there isn't already the max amount of items on the build, then add something like a flower, and it will register as a new build that you can save or use from history.
+
+Prior to importing any autobuilds, you should make a backup of both the savegame and cache files using JKSV. The way they get imported into the game isn't 100% stable when it comes to the icons and `.cai` files. Unfortunately the way it's designed, it isn't just a simple replace one build with another. One thing believed to have completely broken the autobuilds and icon updates was adding an object that wasn't normally obtainable (Zelda's cutscene torch), so avoiding those types of items is advised. Again, back up both cache and save with JKSV prior to any imports to be safe.
+
 ### 11. About
 
 The About tab shows the version of the app and recognizes the save-format researchers, data sources, community resources, libraries, and port author that make the project possible. Full linked credits are below.
