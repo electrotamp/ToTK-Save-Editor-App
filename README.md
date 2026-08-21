@@ -21,24 +21,7 @@ The editor works with save data exported by a homebrew save manager; it does not
 - Autobuild Favorites and History viewer, online HyruleWorks browser, and local `.cai` importer.
 - Built-in save validation, game-limit clamping, icon atlas, and location-name data.
 
-
-### Install and prepare a save
-
-1. Copy `build-switch/totk_save_editor.nro` to `sdmc:/switch/totk-save-editor/`.
-2. Use a save manager such as [JKSV](https://github.com/J-D-K/JKSV) to export your *Tears of the Kingdom* save.
-3. Place each exported save folder under `sdmc:/switch/totk-save-editor/saves/slot_00/`, `slot_01/`, and so on. A slot needs at least `progress.sav`; including `caption.sav` enables the screenshot, save date, save type, and location display.
-
-   ```text
-   sdmc:/switch/totk-save-editor/saves/slot_00/progress.sav
-   sdmc:/switch/totk-save-editor/saves/slot_00/caption.sav
-   ```
-
-4. Launch ToTK Save Editor from the Homebrew Menu, make your changes, then press **Y** in the editor to write the selected slot's `progress.sav`.
-5. Exit the app and use your save manager to restore that edited export to the game.
-
-Keep the original export separately until you have confirmed the edited save loads correctly in-game.
-
-## Using ToTK Save Editor
+### Using ToTK Save Editor
 
 ### Controls used throughout the editor
 
@@ -148,8 +131,7 @@ An internet connection is required only for catalog browsing, images, and downlo
 
 Local imports require no internet connection. The editor writes the blueprint payload and related camera data needed by the save; it does not promise to refresh Nintendo's in-game render cache, so a reused in-game tile can temporarily show an older thumbnail even though the imported build data is present.
 
-> [!CAUTION]
-> #### Notes regarding Autobuild
+#### Notes regarding Autobuild
 
 If you care about the icon being updated, then after import, go into the game, and if there isn't already the max amount of items on the build, then add something like a flower, and it will register as a new build that you can save or use from history.
 
