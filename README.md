@@ -144,6 +144,11 @@ Prior to importing any autobuilds, you should make a backup of both the savegame
 
 The About tab shows the version of the app and recognizes the save-format researchers, data sources, community resources, libraries, and port author that make the project possible. Full linked credits are below.
 
+
+## Current Bugs
+
+- In version 1.0.0, there's a bug where if you don't have any bows and you go to the bow tab, it'll crash. If you just go get a bow in game, that won't happen. But I already have this fixed and it'll be in another release once there's more feedback.
+
 ## Credits
 
 | Credit | Contribution |
