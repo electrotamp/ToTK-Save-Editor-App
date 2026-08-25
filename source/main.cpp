@@ -24,6 +24,8 @@
 #ifdef TOTK_SAVE_EDITOR
 #include "save_editor/save_editor_app.hpp"
 #include "net/http_client.hpp"
+#include "net/update_client.hpp"
+#include "ui/update_prompt.hpp"
 #endif
 #if !defined(TOTK_WEAPONS_ONLY_UI)
 #include "ui/editor_theme.hpp"
@@ -141,6 +143,9 @@ int main(int argc, char* argv[]) {
     totk::ui::EditorTheme::instance().loadStartup();
     brls::Application::createWindow("ToTK Save Editor");
     brls::Application::pushActivity(new totk::save_editor::PickerActivity(), brls::TransitionAnimation::NONE);
+    if (totk::net::autoCheckEnabled()) {
+        totk::ui::checkForUpdatesAsync(/*announceResult=*/false);
+    }
 #elif defined(TOTK_WEAPONS_ONLY_UI)
     brls::Application::registerXMLView("ItemListTabWeapons", totk::ui::ItemListTab::createWeapons);
     brls::Application::createWindow("ToTK Save Editor");

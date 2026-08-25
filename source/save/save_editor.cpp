@@ -561,6 +561,9 @@ bool SaveEditor::insertAutobuilderNewest(const AutobuilderCai& blueprint, bool f
     int targetIndex = -1;
     for (size_t i = 0; i < autobuilderSlots_.size(); ++i) {
         if (autobuilderSlots_[i].slotValue < 0 || autobuilderSlots_[i].slotValue >= 30) {
+            TOTK_LOG("insertAutobuilderNewest: invalid Index at draftPosition=%zu value=%d favorite=%d blueprintSize=%zu",
+                     i, autobuilderSlots_[i].slotValue, autobuilderSlots_[i].favorite ? 1 : 0,
+                     autobuilderSlots_[i].blueprint.size());
             error = "Autobuild Index data is outside the expected 0-29 range.";
             return false;
         }

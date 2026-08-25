@@ -17,7 +17,7 @@ option(TOTK_ICON_ATLAS "Use sprite-sheet icon atlases instead of per-PNG loads" 
 option(TOTK_NXLINK_DEBUG "NXLink debug profile (-O0, stamped build id, verbose logs)" OFF)
 set(VERSION_MAJOR "1")
 set(VERSION_MINOR "0")
-set(VERSION_ALTER "0")
+set(VERSION_ALTER "1")
 set(VERSION_BUILD "0")
 set(PROJECT_AUTHOR "TotK Save Editor")
 set(PROJECT_TITLEID "0x0100000005134C00")
@@ -92,6 +92,9 @@ endif()
 
 target_include_directories(${PROJECT_NAME} PRIVATE ${APP_PLATFORM_INCLUDE})
 target_compile_options(${PROJECT_NAME} PRIVATE -ffunction-sections -fdata-sections ${APP_PLATFORM_OPTION})
+# Runtime-visible version string for the in-app updater's version compare —
+# keep in lockstep with the NACP version built at the .nro target above.
+target_compile_definitions(${PROJECT_NAME} PRIVATE APP_VERSION_STRING="${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_ALTER}")
 if (TOTK_ICON_ATLAS)
     target_compile_definitions(${PROJECT_NAME} PRIVATE TOTK_ICON_ATLAS=1)
 endif()

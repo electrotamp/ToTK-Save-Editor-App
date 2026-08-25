@@ -15,6 +15,20 @@ BUILD_DIR="$PROJECT_DIR/build-switch"
 GPP="$DEVKITPRO/devkitA64/bin/aarch64-none-elf-g++.exe"
 GCC="$DEVKITPRO/devkitA64/bin/aarch64-none-elf-gcc.exe"
 
+# This fast path bypasses CMake entirely, so it can't read CMakeLists.txt's
+# VERSION_MAJOR/MINOR/ALTER via target_compile_definitions like a normal
+# CMake build would — read them straight out of the file instead. Feeds both
+# the runtime APP_VERSION_STRING (used by the in-app updater's version
+# compare — this omission first surfaced as the updater reporting the
+# running build as v0.0.0 on real hardware, confirmed 2026-08-25) and the
+# NACP version below, so both stay in lockstep with CMakeLists.txt without a
+# second place to remember to bump.
+version_component() {
+  grep -m1 "set($1 " "$PROJECT_DIR/CMakeLists.txt" | sed -E 's/.*"([0-9]+)".*/\1/'
+}
+APP_VERSION="$(version_component VERSION_MAJOR).$(version_component VERSION_MINOR).$(version_component VERSION_ALTER)"
+APP_VERSION_DEFINE="-DAPP_VERSION_STRING=\"${APP_VERSION}\""
+
 # Icon atlas fork: set TOTK_ICON_ATLAS=0 to build legacy per-PNG path on this branch.
 TOTK_ICON_ATLAS="${TOTK_ICON_ATLAS:-1}"
 TOTK_SAVE_EDITOR="${TOTK_SAVE_EDITOR:-0}"
@@ -150,6 +164,7 @@ compile() {
     -DYG_ENABLE_EVENTS -Wno-volatile -DHAVE_LIBNX -DSWITCH -D__SWITCH__ \
     -DSTBI_NO_THREAD_LOCALS -DBOREALIS_USE_OPENGL -DUSE_LIBROMFS \
     $ATLAS_CXX_FLAG $NXLINK_DEBUG_FLAG $DEBUG_THUMBS_FLAG $WEAPONS_ONLY_FLAG $SAVE_EDITOR_CXX_FLAG $BUILD_ID_DEFINE \
+    $APP_VERSION_DEFINE \
     -c "$1" -o "$2"
 }
 
@@ -207,6 +222,8 @@ if [[ "$TOTK_SAVE_EDITOR" == "1" ]]; then
   compile "$PROJECT_DIR/source/save/autobuilder_cai.cpp" "CMakeFiles/totk_save_editor.dir/source/save/autobuilder_cai.o"
   compile "$PROJECT_DIR/source/net/http_client.cpp" "CMakeFiles/totk_save_editor.dir/source/net/http_client.o"
   compile "$PROJECT_DIR/source/net/hyruleworks_client.cpp" "CMakeFiles/totk_save_editor.dir/source/net/hyruleworks_client.o"
+  compile "$PROJECT_DIR/source/net/update_client.cpp" "CMakeFiles/totk_save_editor.dir/source/net/update_client.o"
+  compile "$PROJECT_DIR/source/ui/update_prompt.cpp" "CMakeFiles/totk_save_editor.dir/source/ui/update_prompt.o"
   compile "$PROJECT_DIR/source/ui/autobuild_slot_picker.cpp" "CMakeFiles/totk_save_editor.dir/source/ui/autobuild_slot_picker.o"
   compile "$PROJECT_DIR/source/ui/autobuild_import_activity.cpp" "CMakeFiles/totk_save_editor.dir/source/ui/autobuild_import_activity.o"
   compile "$PROJECT_DIR/source/ui/autobuild_catalog_activity.cpp" "CMakeFiles/totk_save_editor.dir/source/ui/autobuild_catalog_activity.o"
@@ -269,6 +286,8 @@ if [[ "$TOTK_SAVE_EDITOR" == "1" ]]; then
     CMakeFiles/totk_save_editor.dir/source/save/autobuilder_cai.o \
     CMakeFiles/totk_save_editor.dir/source/net/http_client.o \
     CMakeFiles/totk_save_editor.dir/source/net/hyruleworks_client.o \
+    CMakeFiles/totk_save_editor.dir/source/net/update_client.o \
+    CMakeFiles/totk_save_editor.dir/source/ui/update_prompt.o \
     CMakeFiles/totk_save_editor.dir/source/ui/autobuild_slot_picker.o \
     CMakeFiles/totk_save_editor.dir/source/ui/autobuild_import_activity.o \
     CMakeFiles/totk_save_editor.dir/source/ui/autobuild_catalog_activity.o \
@@ -370,7 +389,7 @@ if [[ ! -f "$PROJECT_ICON" ]]; then
 fi
 
 echo "Creating NRO..."
-nacptool.exe --create "$NRO_TITLE" "ToTK Save Editor" "1.0.0" totk_save_editor.nacp --titleid=0x0100000005134C00
+nacptool.exe --create "$NRO_TITLE" "ToTK Save Editor" "$APP_VERSION" totk_save_editor.nacp --titleid=0x0100000005134C00
 elf2nro.exe totk_save_editor.elf totk_save_editor.nro \
   --icon="$PROJECT_ICON" \
   --nacp=totk_save_editor.nacp \

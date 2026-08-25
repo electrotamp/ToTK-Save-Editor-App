@@ -16,7 +16,9 @@
 #include "ui/bounded_numeric_cell.hpp"
 #include "ui/item_database.hpp"
 #include "ui/pouch_item_display.hpp"
+#include "ui/update_prompt.hpp"
 #include "ui/zonai_wisp_overlay.hpp"
+#include "net/update_client.hpp"
 #include "util/debug_stage.hpp"
 #include "util/icon_atlas.hpp"
 #include "util/image_loader.hpp"
@@ -571,7 +573,10 @@ void TabHostActivity::buildEquipmentGrid(const std::string& category) {
     if (weapons.empty()) {
         headerName_->setText("No " + category);
         headerSubtitle_->setText("Select the + tile to add one");
-        headerFuseLabel_->setText("-");
+        // Bows have no Fuse panel (they use arrow attachments), so this
+        // label is intentionally absent on the Bow tab.  Empty bow pouches
+        // previously dereferenced that null pointer while building the tab.
+        if (headerFuseLabel_) headerFuseLabel_->setText("-");
     }
 
     auto* scroll = new brls::ScrollingFrame();
@@ -586,8 +591,9 @@ void TabHostActivity::buildEquipmentGrid(const std::string& category) {
     content->setWidthPercentage(100);
     content->setFocusable(false);
 
-    tiles_.reserve(weapons.size() + 1);
-    const size_t totalSlots = weapons.size() + 1;
+    const bool isBowsTab = category == "bows";
+    tiles_.reserve(weapons.size() + 1 + (isBowsTab ? 1 : 0));
+    const size_t totalSlots = weapons.size() + 1 + (isBowsTab ? 1 : 0);
     for (size_t i = 0; i < totalSlots; ++i) {
         if (i % static_cast<size_t>(kGridColumns) == 0) {
             auto* rowBox = new brls::Box();
@@ -611,7 +617,80 @@ void TabHostActivity::buildEquipmentGrid(const std::string& category) {
         tile->setFocusable(true);
         tile->setBackgroundColor(nvgRGBA(255, 255, 255, 12));
 
-        if (i == weapons.size()) {
+        if (isBowsTab && i == 0) {
+            if (editor.hasArrows()) {
+                const auto info = totk::displayInfoForPouchItem(editor, "arrows", 0);
+
+                auto* badge = new brls::Label();
+                badge->setFocusable(false);
+                badge->setFontSize(kBadgeFontSize);
+                badge->setHorizontalAlign(brls::HorizontalAlign::LEFT);
+                badge->setWidth(kTileIconPx);
+                badge->setText(info.badge);
+                tile->addView(badge);
+
+                auto* image = new brls::Image();
+                image->setScalingType(brls::ImageScalingType::FIT);
+                image->setWidth(kTileIconPx);
+                image->setHeight(kTileIconPx);
+                image->setFocusable(false);
+
+                bool iconOk = false;
+                for (const auto& path : info.iconPaths) {
+                    if (IconAtlas::instance().apply(image, path)) {
+                        iconOk = true;
+                        break;
+                    }
+                }
+
+                if (iconOk) {
+                    tile->addView(image);
+                } else {
+                    delete image;
+                    auto* nameLabel = new brls::Label();
+                    nameLabel->setFocusable(false);
+                    nameLabel->setFontSize(13);
+                    nameLabel->setText(info.name.empty() ? info.id : info.name);
+                    nameLabel->setHorizontalAlign(brls::HorizontalAlign::CENTER);
+                    nameLabel->setWidth(kTileIconPx);
+                    nameLabel->setIsWrapping(true);
+                    tile->addView(nameLabel);
+                }
+
+                tile->registerAction("Select", brls::BUTTON_A, [this](brls::View*) {
+                    brls::Application::pushActivity(new PouchEditActivity("arrows", 0),
+                                                     brls::TransitionAnimation::NONE);
+                    return true;
+                });
+            } else {
+                auto* plus = new brls::Label();
+                plus->setFocusable(false);
+                plus->setFontSize(28.0f);
+                plus->setHorizontalAlign(brls::HorizontalAlign::CENTER);
+                plus->setText("+");
+                plus->setTextColor(nvgRGB(230, 230, 230));
+                tile->addView(plus);
+
+                tile->registerAction("Add", brls::BUTTON_A, [this, category](brls::View*) {
+                    auto& editor = AppState::instance().editor();
+                    if (!editor.addArrows()) {
+                        brls::Application::notify("Could not add arrows");
+                        return true;
+                    }
+                    buildEquipmentGrid(category);
+                    return true;
+                });
+            }
+            tile->addGestureRecognizer(new brls::TapGestureRecognizer(tile));
+
+            rowBox->addView(tile);
+            tiles_.push_back(tile);
+            continue;
+        }
+
+        const size_t bowIndex = isBowsTab ? i - 1 : i;
+
+        if (bowIndex == weapons.size()) {
             auto* plus = new brls::Label();
             plus->setFocusable(false);
             plus->setFontSize(isFull ? 16.0f : 28.0f);
@@ -635,7 +714,7 @@ void TabHostActivity::buildEquipmentGrid(const std::string& category) {
             continue;
         }
 
-        const auto& item = weapons[i];
+        const auto& item = weapons[bowIndex];
 
         auto* badge = new brls::Label();
         badge->setFocusable(false);
@@ -677,7 +756,7 @@ void TabHostActivity::buildEquipmentGrid(const std::string& category) {
             tile->addView(nameLabel);
         }
 
-        const size_t itemIndex = i;
+        const size_t itemIndex = bowIndex;
         tile->registerAction("Select", brls::BUTTON_A, [this, category, itemIndex](brls::View*) {
             brls::Application::pushActivity(new EquipmentEditActivity(category, itemIndex),
                                              brls::TransitionAnimation::NONE);
@@ -722,6 +801,29 @@ void TabHostActivity::buildEquipmentGrid(const std::string& category) {
 
 void TabHostActivity::updateEquipmentHeader(size_t index) {
     auto& editor = AppState::instance().editor();
+
+    if (currentTabId_ == "bows") {
+        if (index == 0) {
+            if (editor.hasArrows()) {
+                const auto info = totk::displayInfoForPouchItem(editor, "arrows", 0);
+                if (headerName_) headerName_->setText(info.name.empty() ? info.id : info.name);
+                if (headerSubtitle_) headerSubtitle_->setText(info.subtitle);
+                if (headerIcon_) {
+                    headerIcon_->clear();
+                    for (const auto& path : info.iconPaths) {
+                        if (IconAtlas::instance().apply(headerIcon_, path)) break;
+                    }
+                }
+            } else {
+                if (headerName_) headerName_->setText("No arrows");
+                if (headerSubtitle_) headerSubtitle_->setText("Select the + tile to add some");
+                if (headerIcon_) headerIcon_->clear();
+            }
+            return;
+        }
+        index -= 1;
+    }
+
     const auto it = editor.equipment().find(currentTabId_);
     if (it == editor.equipment().end() || index >= it->second.size()) return;
 
@@ -1497,6 +1599,42 @@ void TabHostActivity::buildCreditsTab() {
     content->setFocusable(false);
     content->setPaddingRight(31.0f);
 
+    addCreditsHeader(content, "Software Update");
+    addCreditsLine(content, "ToTK Save Editor", "Version " + totk::net::currentVersionString());
+    auto* checkUpdateButton = new brls::Button();
+    checkUpdateButton->setText("Check for Updates");
+    checkUpdateButton->registerClickAction([](brls::View*) {
+        totk::ui::checkForUpdatesAsync(true);
+        return true;
+    });
+    content->addView(checkUpdateButton);
+
+    // "Don't ask again" on the update prompt only calls setAutoCheckEnabled(false)
+    // — it never touches whether Check for Updates above works, so this toggle is
+    // purely about the launch-time popup, not about updating being possible at all.
+    auto* autoCheckToggleButton = new brls::Button();
+    autoCheckToggleButton->setText(totk::net::autoCheckEnabled() ? "Disable Automatic Update Checks"
+                                                                  : "Enable Automatic Update Checks");
+    autoCheckToggleButton->registerClickAction([this](brls::View*) {
+        const bool nowEnabled = !totk::net::autoCheckEnabled();
+        totk::net::setAutoCheckEnabled(nowEnabled);
+        brls::Application::notify(nowEnabled ? "Will check for updates automatically on launch."
+                                              : "Won't check automatically — Check for Updates above still works.");
+        // Rebuilding synchronously here would destroy this Button (and its
+        // registerClickAction closure still on the call stack) via
+        // contentRoot_->clearViews() inside buildCreditsTab() — same class of
+        // crash as this project's known rapid-tab-switch bug. Defer one frame
+        // via brls::sync instead, same pattern this function already uses for
+        // its own focus restore below.
+        const uint32_t generation = buildGeneration_;
+        brls::sync([this, generation]() {
+            if (generation != buildGeneration_) return;
+            buildCreditsTab();
+        });
+        return true;
+    });
+    content->addView(autoCheckToggleButton);
+
     addCreditsHeader(content, "Credits");
 
     addCreditsHeader(content, "Save Format & Web Editor");
@@ -1528,9 +1666,6 @@ void TabHostActivity::buildCreditsTab() {
 
     addCreditsHeader(content, "This Port");
     addCreditsLine(content, "https://github.com/electrotamp");
-
-    addCreditsHeader(content, "App Version");
-    addCreditsLine(content, "1.0.0");
 
     scroll->setContentView(content);
     contentRoot_->addView(scroll);
