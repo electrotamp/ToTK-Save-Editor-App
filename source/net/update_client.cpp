@@ -9,7 +9,9 @@
 
 #include <algorithm>
 #include <cctype>
+#include <cerrno>
 #include <cstdio>
+#include <cstring>
 
 #if defined(__SWITCH__)
 #include <switch.h>
@@ -145,6 +147,8 @@ bool downloadAndInstallUpdate(const UpdateInfo& info, std::string& error) {
     const size_t written = fwrite(response.body.data(), 1, response.body.size(), file);
     fclose(file);
     if (written != response.body.size()) {
+        TOTK_LOG("updater: fwrite wrote %zu of %zu bytes to temp file, errno=%d (%s)", written,
+                  response.body.size(), errno, strerror(errno));
         remove(kTempPath);
         error = "Failed to write the update to the SD card.";
         return false;
@@ -153,10 +157,34 @@ bool downloadAndInstallUpdate(const UpdateInfo& info, std::string& error) {
     // Drop any existing file first — rename() over an existing destination
     // isn't guaranteed to succeed on every filesystem devkitPro's fs driver
     // sits on top of.
-    remove(kInstallPath);
+    if (remove(kInstallPath) != 0 && errno != ENOENT) {
+        TOTK_LOG("updater: remove(%s) failed errno=%d (%s)", kInstallPath, errno, strerror(errno));
+    }
     if (rename(kTempPath, kInstallPath) != 0) {
-        error = "Failed to move the update into place.";
-        return false;
+        const int renameErrno = errno;
+        TOTK_LOG("updater: rename(%s -> %s) failed errno=%d (%s); falling back to direct overwrite", kTempPath,
+                  kInstallPath, renameErrno, strerror(renameErrno));
+
+        // rename() across libnx's sdmc devoptab can fail in ways plain
+        // truncate-and-overwrite doesn't (e.g. destination directory-entry
+        // semantics). We still have the downloaded bytes in memory, so fall
+        // back to writing them straight over the install path.
+        FILE* installFile = fopen(kInstallPath, "wb");
+        if (!installFile) {
+            error = "Failed to move the update into place (rename errno " + std::to_string(renameErrno) + ": " +
+                     strerror(renameErrno) + "; fallback open errno " + std::to_string(errno) + ": " +
+                     strerror(errno) + ").";
+            return false;
+        }
+        const size_t fallbackWritten = fwrite(response.body.data(), 1, response.body.size(), installFile);
+        fclose(installFile);
+        if (fallbackWritten != response.body.size()) {
+            TOTK_LOG("updater: fallback overwrite wrote %zu of %zu bytes, errno=%d (%s)", fallbackWritten,
+                      response.body.size(), errno, strerror(errno));
+            error = "Failed to move the update into place (fallback write incomplete).";
+            return false;
+        }
+        remove(kTempPath);
     }
 
     TOTK_LOG("updater: installed version=%s at %s", info.version.c_str(), kInstallPath);
