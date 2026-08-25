@@ -62,6 +62,9 @@ int main(int argc, char* argv[]) {
     (void)argv;
 
     std::set_terminate(totkTerminateHandler);
+#if defined(TOTK_SAVE_EDITOR)
+    totk::net::finalizePendingUpdate();
+#endif
 #ifdef TOTK_NXLINK_DEBUG
     totk::resetStageLog();
     TOTK_STAGE("main.start build=%s", TOTK_BUILD_ID);

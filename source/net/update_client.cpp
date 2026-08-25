@@ -113,7 +113,7 @@ bool fetchLatestRelease(UpdateInfo& outInfo, std::string& error) {
     return true;
 }
 
-bool downloadAndInstallUpdate(const UpdateInfo& info, std::string& error) {
+bool downloadUpdate(const UpdateInfo& info, std::string& error) {
 #if !defined(__SWITCH__)
     (void)info;
     error = "Updates can only be installed on Nintendo Switch.";
@@ -141,7 +141,8 @@ bool downloadAndInstallUpdate(const UpdateInfo& info, std::string& error) {
 
     FILE* file = fopen(kTempPath, "wb");
     if (!file) {
-        error = "Could not open a temp file for writing on the SD card.";
+        error = "Could not open a temp file for writing on the SD card (errno " + std::to_string(errno) + ": " +
+                 strerror(errno) + ").";
         return false;
     }
     const size_t written = fwrite(response.body.data(), 1, response.body.size(), file);
@@ -154,42 +155,31 @@ bool downloadAndInstallUpdate(const UpdateInfo& info, std::string& error) {
         return false;
     }
 
-    // Drop any existing file first — rename() over an existing destination
-    // isn't guaranteed to succeed on every filesystem devkitPro's fs driver
-    // sits on top of.
-    if (remove(kInstallPath) != 0 && errno != ENOENT) {
-        TOTK_LOG("updater: remove(%s) failed errno=%d (%s)", kInstallPath, errno, strerror(errno));
-    }
-    if (rename(kTempPath, kInstallPath) != 0) {
-        const int renameErrno = errno;
-        TOTK_LOG("updater: rename(%s -> %s) failed errno=%d (%s); falling back to direct overwrite", kTempPath,
-                  kInstallPath, renameErrno, strerror(renameErrno));
-
-        // rename() across libnx's sdmc devoptab can fail in ways plain
-        // truncate-and-overwrite doesn't (e.g. destination directory-entry
-        // semantics). We still have the downloaded bytes in memory, so fall
-        // back to writing them straight over the install path.
-        FILE* installFile = fopen(kInstallPath, "wb");
-        if (!installFile) {
-            error = "Failed to move the update into place (rename errno " + std::to_string(renameErrno) + ": " +
-                     strerror(renameErrno) + "; fallback open errno " + std::to_string(errno) + ": " +
-                     strerror(errno) + ").";
-            return false;
-        }
-        const size_t fallbackWritten = fwrite(response.body.data(), 1, response.body.size(), installFile);
-        fclose(installFile);
-        if (fallbackWritten != response.body.size()) {
-            TOTK_LOG("updater: fallback overwrite wrote %zu of %zu bytes, errno=%d (%s)", fallbackWritten,
-                      response.body.size(), errno, strerror(errno));
-            error = "Failed to move the update into place (fallback write incomplete).";
-            return false;
-        }
-        remove(kTempPath);
-    }
-
-    TOTK_LOG("updater: installed version=%s at %s", info.version.c_str(), kInstallPath);
+    TOTK_LOG("updater: downloaded version=%s to %s (relaunch required to finish installing)", info.version.c_str(),
+              kTempPath);
     error.clear();
     return true;
+#endif
+}
+
+void finalizePendingUpdate() {
+#if defined(__SWITCH__)
+    FILE* probe = fopen(kTempPath, "rb");
+    if (!probe) return;  // nothing pending
+    fclose(probe);
+
+    // remove()+rename() rather than rename()-over-existing: libnx's sdmc
+    // devoptab isn't guaranteed to overwrite an existing destination.
+    if (remove(kInstallPath) != 0 && errno != ENOENT) {
+        TOTK_LOG("updater: finalize remove(%s) failed errno=%d (%s)", kInstallPath, errno, strerror(errno));
+    }
+    if (rename(kTempPath, kInstallPath) == 0) {
+        TOTK_LOG("updater: finalized pending update at %s", kInstallPath);
+        return;
+    }
+    const int renameErrno = errno;
+    TOTK_LOG("updater: finalize rename(%s -> %s) failed errno=%d (%s); leaving temp file for next launch",
+              kTempPath, kInstallPath, renameErrno, strerror(renameErrno));
 #endif
 }
 
@@ -201,12 +191,18 @@ bool relaunchIntoUpdatedApp() {
         TOTK_LOG("updater: envHasNextLoad()=false, cannot auto-relaunch");
         return false;
     }
-    const Result rc = envSetNextLoad(kInstallPath, "");
+    // Chain-load the temp file, NOT the install path: the install path's
+    // .nro is still open/in-use as this very process (real-hardware
+    // confirmed 2026-08-25 — overwriting it directly fails with EIO even
+    // via a plain fopen(\"wb\")). Loading from a different file sidesteps
+    // that entirely; finalizePendingUpdate() moves it into place on the
+    // next startup, once it's no longer the active file.
+    const Result rc = envSetNextLoad(kTempPath, "");
     if (R_FAILED(rc)) {
         TOTK_LOG("updater: envSetNextLoad failed rc=0x%x", rc);
         return false;
     }
-    TOTK_LOG("updater: relaunching into updated build");
+    TOTK_LOG("updater: relaunching into downloaded update (will finalize on next startup)");
     brls::Application::quit();
     return true;
 #endif

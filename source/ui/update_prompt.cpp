@@ -13,17 +13,18 @@ void beginDownloadAndInstall(const totk::net::UpdateInfo& info) {
     brls::Application::notify("Downloading update v" + info.version + "...");
     brls::async([info]() {
         std::string error;
-        const bool ok = totk::net::downloadAndInstallUpdate(info, error);
+        const bool ok = totk::net::downloadUpdate(info, error);
         brls::sync([ok, error, info]() {
             if (!ok) {
-                TOTK_LOG("updater: install failed: %s", error.c_str());
+                TOTK_LOG("updater: download failed: %s", error.c_str());
                 brls::Application::notify("Update failed: " + error);
                 return;
             }
             if (!totk::net::relaunchIntoUpdatedApp()) {
                 auto* dialog = new brls::Dialog(
-                    "Update installed. Please close ToTK Save Editor and relaunch it from the Homebrew Menu to "
-                    "finish updating.");
+                    "Update downloaded, but this Homebrew Menu can't auto-relaunch into it. On your SD card, in "
+                    "switch/totk-save-editor/, delete totk_save_editor.nro and rename "
+                    "totk_save_editor.nro.update to totk_save_editor.nro, then relaunch.");
                 dialog->addButton("OK", []() {});
                 dialog->open();
             }
